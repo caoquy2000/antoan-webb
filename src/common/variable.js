@@ -21,3 +21,5 @@ export const ICON_HEIGHT = '24px';
 export const MAIN_COLOR = '#0C1E7F'; // xanh
 export const SECOND_COLOR = '#C20000'; // do 
 export const THIRD_COLOR = '#EFBC28'; // mau nau 
+export const RED_COLOR = '#F4352C';
+export const WHITE_COLOR = '#ffffff';

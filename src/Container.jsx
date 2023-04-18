@@ -9,6 +9,7 @@ const ContainerWrapper = styled.div `
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
     
     @media (max-width: ${reponsive.LG_MAX}) {
         max-width: ${reponsive.CONTAINER_WIDTH};
