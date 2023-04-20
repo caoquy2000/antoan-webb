@@ -3,16 +3,14 @@ import styled from "styled-components";
 import * as variable from 'common/variable';
 
 const MenuMobile = (props) => {
-    const { background, colorLine } = props;
-
     return (
         <MenuMobileContainer>
             <MenuMobileWrapper>
                 <MenuChecker type="checkbox" name="checkerMb" id="checkerMobile" className="check" />
                 <MenuHamm className="menu-hamm">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
+                    <span className="line line1"></span>
+                    <span className="line line2"></span>
+                    <span className="line line3"></span>
                 </MenuHamm>
                 <MenuItem className="menu-items">
                     <li>

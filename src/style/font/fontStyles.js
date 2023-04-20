@@ -13,6 +13,11 @@ import OswaldRegular2 from "../../fonts/Oswald-Regular.woff2";
 import OswaldSemiBold from "../../fonts/Oswald-SemiBold.woff";
 import OswaldSemiBold2 from "../../fonts/Oswald-SemiBold.woff2";
 
+import LatoRegular from "../../fonts/Lato-Regular.woff";
+import LatoRegular2 from "../../fonts/Lato-Regular.woff2";
+import LatoBold from "../../fonts/Lato-Bold.woff";
+import LatoBold2 from "../../fonts/Lato-Bold.woff2";
+
 const FontStyles = createGlobalStyle`
 @font-face {
   font-family: 'OSB';
@@ -48,6 +53,18 @@ const FontStyles = createGlobalStyle`
     font-family: 'OSSB';
     src: url(${OswaldSemiBold2}) format('woff2'),
          url(${OswaldSemiBold}) format('woff');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'LTR';
+    src: url(${LatoRegular2}) format('woff2'),
+         url(${LatoRegular}) format('woff');
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'LTB';
+    src: url(${LatoBold2}) format('woff2'),
+         url(${LatoBold}) format('woff');
     font-display: fallback;
 }
 `;

@@ -1,4 +1,5 @@
 export const CONTAINER_WIDTH = '1400px';
+export const CONTAINER_FUILD = '1530px';
 export const CONTAINER_MAX_WIDTH = '1920px';
 
 export const MD_WIDTH = '1010px';
@@ -23,3 +24,6 @@ export const SECOND_COLOR = '#C20000'; // do
 export const THIRD_COLOR = '#EFBC28'; // mau nau 
 export const RED_COLOR = '#F4352C';
 export const WHITE_COLOR = '#ffffff';
+export const BLACK_COLOR = '#000000';
+export const GRAY_COLOR = '#F4F4F4';
+export const TEXT_DESCRIPTION_COLOR = '#8D8D8D';
