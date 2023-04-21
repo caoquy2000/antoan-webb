@@ -9,23 +9,7 @@ const ContainerWrapper = styled.div `
     margin-left: auto;
     
     @media (max-width: ${reponsive.LG_MAX}) {
-        max-width: ${reponsive.CONTAINER_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.MD_MAX}) {
-        max-width: ${reponsive.MD_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.SM_MAX}) {
-        max-width: ${reponsive.SM_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.XS_MAX}) {
-        max-width: ${reponsive.XS_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.XXS_MAX}) {
-        max-width: ${reponsive.XXS_WIDTH};
+        max-width: 100%;
     }
 `;
 
@@ -38,24 +22,9 @@ const ContainerFuildWrapper = styled.div`
     position: relative;
 
     @media (max-width: ${reponsive.LG_MAX}) {
-        max-width: ${reponsive.CONTAINER_WIDTH};
+        max-width: 100%;
     }
 
-    @media (max-width: ${reponsive.MD_MAX}) {
-        max-width: ${reponsive.MD_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.SM_MAX}) {
-        max-width: ${reponsive.SM_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.XS_MAX}) {
-        max-width: ${reponsive.XS_WIDTH};
-    }
-
-    @media (max-width: ${reponsive.XXS_MAX}) {
-        max-width: ${reponsive.XXS_WIDTH};
-    }
 `;
 
 const ImageWrapper = styled.div `

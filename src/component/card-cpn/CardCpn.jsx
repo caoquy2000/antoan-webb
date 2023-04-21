@@ -13,6 +13,7 @@ const CardCpn = (props) => {
         titleStyle,
         contentStyle,
         bodyStyle,
+        button,
     } = props;
 
     return (
@@ -42,6 +43,7 @@ const CardCpn = (props) => {
                         {content}
                     </CardBody>
                 </CardContent>
+                {!!button && button}
             </CardActionArea>
         </Card>
     );

@@ -1,12 +1,30 @@
 import styled from "styled-components";
 import * as variable from 'common/variable';
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import MenuMobile from "component/menu-mobile/MenuMobile";
+import { useMotionValueEvent, useScroll } from "framer-motion";
 
 const Header = (props) => {
+    const headerRef = useRef(null);
+    const [headerHeight, setHeaderHeight] = useState(0);
+    const { scrollY } = useScroll();
+    const [isFixed, setIsFixed] = useState(false);
+
+    useEffect(() => {
+        setHeaderHeight(headerRef?.current?.clientHeight);
+    }, []);
+
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        if (latest > headerHeight) {
+            setIsFixed(true);
+        } else {
+            setIsFixed(false);
+        }
+    });
+
     return (
         <React.Fragment>
-            <HeaderContainer>
+            <HeaderContainer ref={headerRef}>
                 <LogoWrapper>
                     <LogoImg>
                         <img src="./img/logo.png" alt="Logo Bao Ve An Toan" />
@@ -22,7 +40,7 @@ const Header = (props) => {
                         <Middle>HOTLINE:</Middle>
                         <Phone>0914.68.2423</Phone>
                     </Hotline>
-                    <Menu>
+                    <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
                             <li>
                                 <a href="#">TRANG CHỦ</a>
@@ -116,6 +134,12 @@ const LogoText = styled.div `
             font-size: 12px;
         }
     }
+    @media (max-width: 420px) {
+        .logo {
+            font-size: 20px;
+        }
+   
+    }
 `;
 
 const MenuWrapper = styled.div `
@@ -151,6 +175,24 @@ const Phone = styled.a `
 const paddingMargin = '24px';
 const Menu = styled.div `
     margin-bottom: ${paddingMargin};
+    
+    &.menu_fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%; 
+        z-index: 1000;
+        background-color: ${variable.BLACK_COLOR};
+        transition: all linear 500ms;
+        ul {
+            justify-content: center;
+            li a {
+                display: block;
+                background-color: inherit;
+            }
+        }
+    }
+
     ul {
         display: flex;
         list-style-type: none;

@@ -6,6 +6,7 @@ import Header from "component/header/Header";
 import { ContainerWrapper } from "Container";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "component/footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             }
           />
         </Routes>
+        <Footer />
       </Router>
     </React.Fragment>
   );

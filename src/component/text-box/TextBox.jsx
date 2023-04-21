@@ -16,6 +16,7 @@ const TextBox = (props) => {
             case 'h2': {
                 titleNode = (
                     <h2 style={{...titleStyle}}
+                        className="title_textbox"
                     >
                         {titleContent}
                     </h2>
@@ -25,6 +26,7 @@ const TextBox = (props) => {
             case 'h3': {
                 titleNode = (
                     <h3 style={{...titleStyle}}
+                        className="title_textbox"
                     >
                         {titleContent}
                     </h3>
@@ -34,6 +36,7 @@ const TextBox = (props) => {
             case 'h4': {
                 titleNode = (
                     <h4 style={{...titleStyle}}
+                        className="title_textbox"
                     >
                         {titleContent}
                     </h4>
@@ -52,12 +55,15 @@ const TextBox = (props) => {
 
     const _renderContentNode = () => {
         let bodyNode1 = (
-            bodyContent1 && <p style={{...bodyStyle, marginBottom: '6px'}}>
+            bodyContent1 && <p style={{...bodyStyle, marginBottom: '6px'}}
+                className="content_textbox"
+            >
                 {bodyContent1}
             </p>    
         );
         let bodyNode2 = (
-            bodyContent2 && <p style={{...bodyStyle}}>
+            bodyContent2 && <p style={{...bodyStyle}} 
+            className="content_textbox">
                 {bodyContent2}
             </p>    
         );

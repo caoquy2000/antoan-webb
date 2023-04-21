@@ -38,6 +38,10 @@ const ServiceSection = (props) => {
                                         fontSize: '16px',
                                         color: variable.TEXT_DESCRIPTION_COLOR,
                                         lineHeight: '22px',
+                                        overflow: 'hidden',
+                                        display: '-webkit-box',
+                                        '-webkit-line-clamp': '3',
+                                        '-webkit-box-orient': 'vertical',
                                     }}
                                     bodyStyle={{
                                         padding: '22px',
@@ -71,6 +75,15 @@ const ServiceList = styled.div`
     grid-auto-rows: 1fr;
     gap: 64px;
     padding-bottom: 60px;
+    @media (max-width: ${variable.MD_MAX}) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 892px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 592px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 const ServiceItem = styled.div`

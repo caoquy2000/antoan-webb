@@ -7,6 +7,8 @@ import IntroSection from "./section/intro-section/IntroSection";
 import MissionSection from "./section/mission-section/MissionSection";
 import ServiceSection from "./section/service-section/ServiceSection";
 import ChooseSection from "./section/choose-section/ChooseSection";
+import CustomerSection from "./section/customer-section/CustomerSection";
+import NewsSection from "./section/news-section/NewsSection";
 
 const Home = (props) => {
     return (
@@ -33,6 +35,8 @@ const Home = (props) => {
             <MissionSection />
             <ServiceSection />
             <ChooseSection />
+            <CustomerSection />
+            <NewsSection />
         </React.Fragment>
     );
 };
@@ -44,7 +48,7 @@ const SliderSection  = styled.section`
     overflow: hidden;
     position: relative;
     z-index: 1;
-    margin-bottom: 105px;
+    margin-bottom: 50px;
 `;
 
 const BannerOverlay = styled.div `
@@ -106,6 +110,48 @@ const ContentWrapper = styled.div `
         img {
             animation: ${animateArrow} 1s linear infinite;
             filter: invert(100%) sepia(81%) saturate(0%) hue-rotate(142deg) brightness(106%) contrast(104%);
+        }
+    }
+    @media (max-width: ${variable.XS_MAX}) {
+        .text-wrapper {
+            .text1 {
+                font-size: 28px;
+            }
+            .text2 {
+                font-size: 22px;
+            }
+        }
+        a {
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+    }
+    @media (max-width: 500px) {
+        .text-wrapper {
+            .text1 {
+                font-size: 22px;
+            }
+            .text2 {
+                font-size: 16px;
+            }
+        }
+        a {
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+    }
+    @media (max-width: 420px) {
+        .text-wrapper {
+            .text1 {
+                font-size: 18px;
+            }
+            .text2 {
+                font-size: 15px;
+            }
+        }
+        a {
+            font-size: 12px;
+            padding: 5px 10px;
         }
     }
 `;

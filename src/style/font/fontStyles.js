@@ -67,6 +67,7 @@ const FontStyles = createGlobalStyle`
          url(${LatoBold}) format('woff');
     font-display: fallback;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 `;
 
 export default FontStyles;

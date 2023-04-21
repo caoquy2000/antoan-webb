@@ -109,6 +109,12 @@ const ChooseTitle = styled.h3`
     text-align: center;
     padding: 80px 0px;
     text-transform: uppercase;
+    @media (max-width: 600px) {
+        font-size: 24px;
+    }
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
 `;
 
 const ChooseBody = styled.div`

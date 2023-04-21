@@ -42,8 +42,12 @@ const MenuMobileContainer = styled.div`
     @media (max-width: ${variable.SM_MAX}) {
         display: initial;
         position: absolute;
+        top: 10%;
         right: 0;
     }   
+    @media (max-width: 420px) {
+        top: 15%;
+    }
 `;
 
 const MenuMobileWrapper = styled.div `
@@ -57,7 +61,7 @@ const MenuChecker = styled.input `
     height: 3rem;
     width: 3rem;
     opacity: 0;
-    z-index: 3;
+    z-index: 9;
     &:hover {
         cursor: pointer;
     }
@@ -80,8 +84,9 @@ const MenuChecker = styled.input `
     }
     &:checked~.menu-items {
         display: block;
-        transform: translateX(0%);
+        transform: translateX(-10%);
         opacity: 1;
+        pointer-events: auto;
     }
 `;
 
@@ -92,7 +97,7 @@ const MenuHamm = styled.div `
     top: 0;
     right: 0;
     padding: 0.5rem;
-    z-index: 2;
+    z-index: 8;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -125,8 +130,10 @@ const MenuItem = styled.ul `
     border: 4px solid ${variable.MAIN_COLOR};
     background-color: ${variable.MAIN_COLOR};
     border-radius: 0.25em;
-    transform: translateX(10%);
+    z-index: 7;
+    transform: translateX(0);
     transition: transform 100ms ease-in-out, opacity 200ms;
+    pointer-events: none;
     li a {
         text-decoration: none;
         color: ${variable.WHITE_COLOR};

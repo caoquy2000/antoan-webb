@@ -6,9 +6,9 @@ import FontStyles from 'style/font/fontStyles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     <FontStyles />
     <App />
-  </React.StrictMode>
+  </React.Fragment>
 );
 
