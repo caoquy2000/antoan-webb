@@ -7,6 +7,7 @@ import { ContainerWrapper } from "Container";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "component/footer/Footer";
+import Service from "pages/Service";
 
 function App() {
   return (
@@ -22,6 +23,13 @@ function App() {
             path={'/trangchu'}
             element={
               <Home />
+            }
+          />
+          <Route 
+            key={'service'}
+            path={'/dichvu'}
+            element={
+              <Service />
             }
           />
         </Routes>
