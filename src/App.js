@@ -21,21 +21,28 @@ function App() {
         <Routes>
           <Route 
             key={'home'}
-            path={'/trangchu'}
+            path={'/trang-chu'}
             element={
               <Home />
             }
           />
           <Route 
             key={'service'}
-            path={'/dichvu'}
+            path={'/dich-vu'}
             element={
               <Service />
             }
           />
           <Route 
             key={'recruitment'}
-            path={'/tuyendung'}
+            path={'/tuyen-dung'}
+            element={
+              <Recruitment />
+            }
+          />
+          <Route 
+            key={'servicedetail'}
+            path={'/chi-tiet-dich-vu'}
             element={
               <Recruitment />
             }
