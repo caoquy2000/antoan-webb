@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "component/footer/Footer";
 import Service from "pages/Service";
+import Recruitment from "pages/Recruitment";
 
 function App() {
   return (
@@ -30,6 +31,13 @@ function App() {
             path={'/dichvu'}
             element={
               <Service />
+            }
+          />
+          <Route 
+            key={'recruitment'}
+            path={'/tuyendung'}
+            element={
+              <Recruitment />
             }
           />
         </Routes>
