@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'OSB';
+    src: url('Oswald-Bold.woff') format('woff2'),
+         url('Oswald-Bold.woff') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'OSEX';
+      src: url('Oswald-ExtraLight.woff') format('woff2'),
+           url('Oswald-ExtraLight.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'OSL';
+      src: url('Oswald-Light.woff') format('woff2'),
+           url('Oswald-Light.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'OSM';
+      src: url('Oswald-Medium.woff') format('woff2'),
+           url('Oswald-Medium.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'OSR';
+      src: url('Oswald-Regular.woff') format('woff2'),
+           url('Oswald-Regular.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'OSSB';
+      src: url('Oswald-SemiBold.woff') format('woff2'),
+           url('Oswald-SemiBold.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'LTR';
+      src: url('Lato-Regular.woff') format('woff2'),
+           url('Lato-Regular.woff2') format('woff');
+      font-display: fallback;
+  }
+  @font-face {
+      font-family: 'LTB';
+      src: url('Lato-Bold.woff') format('woff2'),
+           url('Lato-Bold.woff2') format('woff');
+      font-display: fallback;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');

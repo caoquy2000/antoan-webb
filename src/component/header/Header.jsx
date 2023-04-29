@@ -3,6 +3,7 @@ import * as variable from 'common/variable';
 import React, { useEffect, useRef, useState } from "react";
 import MenuMobile from "component/menu-mobile/MenuMobile";
 import { useMotionValueEvent, useScroll } from "framer-motion";
+import Link from "next/link";
 
 const Header = (props) => {
     const headerRef = useRef(null);
@@ -43,22 +44,22 @@ const Header = (props) => {
                     <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
                             <li>
-                                <a href="#">TRANG CHỦ</a>
+                                <Link href="/home">TRANG CHỦ</Link>
                             </li>
                             <li>
-                                <a href="#">GIỚI THIỆU</a>
+                                <Link href="/home">GIỚI THIỆU</Link>
                             </li>
                             <li>
-                                <a href="#">DỊCH VỤ</a>
+                                <Link href="/service">DỊCH VỤ</Link>
                             </li>
                             <li>
-                                <a href="#">BÁO GIÁ</a>
+                                <Link href="/home">BÁO GIÁ</Link>
                             </li>
                             <li>
-                                <a href="#">TUYỂN  DỤNG</a>
+                                <Link href="/recruitment">TUYỂN  DỤNG</Link>
                             </li>
                             <li>
-                                <a href="#">TIN TỨC</a>
+                                <Link href="/home">TIN TỨC</Link>
                             </li>
                         </ul>
                     </Menu>
