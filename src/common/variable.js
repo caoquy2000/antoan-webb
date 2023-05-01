@@ -27,3 +27,5 @@ export const WHITE_COLOR = '#ffffff';
 export const BLACK_COLOR = '#000000';
 export const GRAY_COLOR = '#F4F4F4';
 export const TEXT_DESCRIPTION_COLOR = '#8D8D8D';
+
+export const paddingULLI = '8px';

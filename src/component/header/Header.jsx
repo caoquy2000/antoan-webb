@@ -44,22 +44,22 @@ const Header = (props) => {
                     <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
                             <li>
-                                <Link href="/home">TRANG CHỦ</Link>
+                                <Link href="/trang-chu">TRANG CHỦ</Link>
                             </li>
                             <li>
-                                <Link href="/home">GIỚI THIỆU</Link>
+                                <Link href="/trang-chu">GIỚI THIỆU</Link>
                             </li>
                             <li>
-                                <Link href="/service">DỊCH VỤ</Link>
+                                <Link href="/dich-vu">DỊCH VỤ</Link>
                             </li>
                             <li>
-                                <Link href="/home">BÁO GIÁ</Link>
+                                <Link href="/bao-gia">BÁO GIÁ</Link>
                             </li>
                             <li>
-                                <Link href="/recruitment">TUYỂN  DỤNG</Link>
+                                <Link href="/tuyen-dung">TUYỂN  DỤNG</Link>
                             </li>
                             <li>
-                                <Link href="/home">TIN TỨC</Link>
+                                <Link href="/tin-tuc">TIN TỨC</Link>
                             </li>
                         </ul>
                     </Menu>

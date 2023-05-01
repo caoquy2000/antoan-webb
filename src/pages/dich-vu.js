@@ -4,10 +4,10 @@ import React from "react";
 
 const Service = (props) => {
     return (
-        <React.Fragment>
+        <>
             <BannerSection />
             <ServicePageSection />
-        </React.Fragment>
+        </>
     );
 };
 

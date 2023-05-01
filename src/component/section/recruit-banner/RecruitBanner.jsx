@@ -3,12 +3,15 @@ import styled from "styled-components";
 import * as variable from 'common/variable';
 
 const RecruitBanner = (props) => {
+    const {
+        buttonText,
+    } = props;
     return (
         <RecruitBannerWrapper>
             <img src="./img/tuyen-dung-img.jpg" alt="Tuyen Dung Img" />
             <RecruitBannerOverlay />
             <RecruitBannerButton>
-                Ứng Tuyển
+                {buttonText}
             </RecruitBannerButton>
         </RecruitBannerWrapper>
     );

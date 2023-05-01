@@ -13,7 +13,7 @@ import NewsSection from "component/section/news-section/NewsSection";
 
 const Home = (props) => {
     return (
-        <React.Fragment>
+        <>
             <SliderSection>
                 <SliderComponent />
                 <BannerOverlay />
@@ -38,7 +38,7 @@ const Home = (props) => {
             <ChooseSection />
             <CustomerSection />
             <NewsSection />
-        </React.Fragment>
+        </>
     );
 };
 

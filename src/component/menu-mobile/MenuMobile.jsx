@@ -14,22 +14,22 @@ const MenuMobile = (props) => {
                 </MenuHamm>
                 <MenuItem className="menu-items">
                     <li>
-                        <a href="#" className="first-item">TRANG CHỦ</a>
+                        <a href="/trang-chu" className="first-item">TRANG CHỦ</a>
                     </li>
                     <li>
-                        <a href="#">GIỚI THIỆU</a>
+                        <a href="/trang-chu">GIỚI THIỆU</a>
                     </li>
                     <li>
-                        <a href="#">DỊCH VỤ</a>
+                        <a href="/dich-vu">DỊCH VỤ</a>
                     </li>
                     <li>
-                        <a href="#">BÁO GIÁ</a>
+                        <a href="/bao-gia">BÁO GIÁ</a>
                     </li>
                     <li>
-                        <a href="#">TUYỂN  DỤNG</a>
+                        <a href="/tuyen-dung">TUYỂN  DỤNG</a>
                     </li>
                     <li>
-                        <a href="#">TIN TỨC</a>
+                        <a href="/tin-tuc">TIN TỨC</a>
                     </li>
                 </MenuItem>
             </MenuMobileWrapper>
