@@ -9,11 +9,17 @@ import ServiceSection from "component/section/service-section/ServiceSection";
 import ChooseSection from "component/section/choose-section/ChooseSection";
 import CustomerSection from "component/section/customer-section/CustomerSection";
 import NewsSection from "component/section/news-section/NewsSection";
+import Head from "next/head";
 
 
 const Home = (props) => {
     return (
         <>
+           <Head>
+                <title>
+                    Trang Chủ
+                </title>
+            </Head>
             <SliderSection>
                 <SliderComponent />
                 <BannerOverlay />

@@ -5,10 +5,11 @@ import * as variable from 'common/variable';
 const RecruitBanner = (props) => {
     const {
         buttonText,
+        img,
     } = props;
     return (
         <RecruitBannerWrapper>
-            <img src="./img/tuyen-dung-img.jpg" alt="Tuyen Dung Img" />
+            <img src={img} alt="Tuyen Dung Img" />
             <RecruitBannerOverlay />
             <RecruitBannerButton>
                 {buttonText}

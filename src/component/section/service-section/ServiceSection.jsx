@@ -20,6 +20,7 @@ const ServiceSection = (props) => {
                                     heightImg='210'
                                     alt={item.alt}
                                     title={item.title}
+                                    route={item.route}
                                     content={item.description}
                                     cardStyle={{
                                         borderRadius: '8px',
@@ -95,48 +96,56 @@ const serviceMock = [
         banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
         alt: 'Bảo Vệ Mục Tiêu Cố Định',
         title: 'Bảo Vệ Mục Tiêu Cố Định',
+        route: '/dich-vu-bao-ve-muc-tieu-co-dinh.html',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo...',
     },
     {
         banner: './img/bao-ve-giu-xe.png',
         alt: 'Bảo Vệ Giữ Xe',
         title: 'Bảo vệ Giữ xe',
+        route: '/dich-vu-bao-ve-giu-xe.html',
         description: 'Bảo Vệ An Toàn chuyên cung cấp nhân lực bảo vệ các nhà máy, xí nghiệp có quy mô lớn...',
     },
     {
         banner: './img/bao-ve-chat-luong-cao.png',
         alt: 'Bảo vệ chất lượng cao',
         title: 'Bảo vệ chất lượng cao',
+        route: '/dich-vu-bao-ve-chat-luong-cao.html',
         description: 'Công ty Bảo Vệ An Toàn tự hào cung cấp dịch vụ bảo vệ chất lượng cao đến quý doanh nghiệp khách hàng...',
     },
     {
         banner: './img/bao-ve-su-kien-le-hoi.png',
         alt: 'Bảo Vệ Sự Kiện, Lễ hội',
         title: 'Bảo Vệ Sự Kiện, Lễ hội',
+        route: '/dich-vu-bao-ve-su-kien.html',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
     },
     {
         banner: './img/bao-ve-yeu-nhan.png',
         alt: 'Bảo Vệ Yếu Nhân',
         title: 'Bảo Vệ Yếu Nhân',
+        route: '/dich-vu-bao-ve-yeu-nhan.html',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
     },
     {
         banner: './img/bao-ve-muc-tieu-di-dong.png',
         alt: 'Bảo Vệ Mục Tiêu Di Động',
         title: 'Bảo Vệ Mục Tiêu Di Động',
+        route: '/dich-vu-bao-ve-muc-tieu-di-dong.html',
         description: 'Bảo Vệ An Toàn chuyên cung cấp nhân lực bảo vệ các nhà máy, xí nghiệp có quy mô lớn...',
     },
     {
         banner: './img/bao-ve-khu-cong-nghiep.png',
         alt: 'Bảo Vệ Khu Công Nghiệp',
         title: 'Bảo Vệ Khu Công Nghiệp',
+        route: '/dich-vu-bao-ve-khu-cong-nghiep.html',
         description: 'Công ty Bảo Vệ An Toàn tự hào cung cấp dịch vụ bảo vệ chất lượng cao đến quý doanh nghiệp khách hàng...',
     },
     {
         banner: './img/bao-ve-xe-van-chuyen.png',
         alt: 'Bảo vệ xe vận chuyển',
         title: 'Bảo vệ xe vận chuyển',
+        route: '/dich-vu-bao-ve-xe-van-chuyen.html',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
     }
 ];

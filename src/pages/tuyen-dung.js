@@ -16,7 +16,7 @@ const Recruitment = (props) => {
                 </title>
                 <meta name="description" content={tuyenDungPage.metaDescription}/>
             </Head>
-            <RecruitBanner buttonText='Tuyển Dụng' />
+            <RecruitBanner buttonText='Tuyển Dụng' img='./img/tuyen-dung-img.jpg' />
             <ContainerWrapper>
                 <BodyContent>
                     <h2 style={{

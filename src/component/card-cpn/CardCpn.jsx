@@ -14,13 +14,18 @@ const CardCpn = (props) => {
         contentStyle,
         bodyStyle,
         button,
+        route,
     } = props;
 
     return (
         <Card sx={{ maxWidth: '100%'}}  style={{
             ...cardStyle
-        }}>
-            <CardActionArea>
+        }}
+    
+        >
+            <CardActionArea 
+                href={route}
+            >
                 <CardMedia 
                     component={'img'}
                     height={heightImg}

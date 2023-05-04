@@ -9,14 +9,14 @@ import * as variable from 'common/variable';
 const ServiceDetail1 = (props) => {
     return (
         <>
-            <Head>
+            {/* <Head>
                 <title>
                     {
                         serviceDetail1.title
                     }
                 </title>
                 <meta name="description"  content={serviceDetail1.metaDescription} />
-            </Head>
+            </Head> */}
             <ContainerWrapper>
                 <ContentWrapper1>
                     <ContentText1>

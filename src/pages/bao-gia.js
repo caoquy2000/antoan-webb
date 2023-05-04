@@ -16,7 +16,7 @@ const Price = (props) => {
                 </title>
                 <meta name="description" content={baoGiaPage.metaDescription}/>
             </Head>
-            <RecruitBanner buttonText='Báo Giá' />
+            <RecruitBanner buttonText='Báo Giá' img='./img/bao-gia-banner.jpg' />
             <ContainerWrapper>
                 <BodyContent>
                     <h2 style={{
