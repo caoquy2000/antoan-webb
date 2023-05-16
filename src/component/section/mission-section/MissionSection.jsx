@@ -45,10 +45,10 @@ const MissionSection = (props) => {
                                     }}
                                     titleContent='SỨ MỆNH CỦA CHÚNG TÔI'
                                     bodyStyle={{
-                                        fontFamily: 'LTR',
+                                        fontFamily: "'Roboto', sans-serif",
                                         fontSize: '22px',
                                     }}
-                                    bodyContent1={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.'}
+                                    bodyContent1={'Nhằm nâng cao hình ảnh doanh nghiệp, phát triển kinh doanh và đảm bảo an ninh trong quá trình hoạt động. Bảo Vệ An Toàn là đơn vị cung cấp dịch vụ bảo vệ uy tín và chất lượng được nhiều khách hàng tin tưởng. Chúng tôi có thể tự tin trở thành đối tác đáng tin cậy đồng hành cùng quý khách hàng.'}
                                 />
                             </MissionContentWrapper>
                             <MissionContentWrapper className={!!Active2 && 'active2'}>
@@ -62,10 +62,10 @@ const MissionSection = (props) => {
                                     }}
                                     titleContent='SỨ MỆNH CỦA CHÚNG TÔI'
                                     bodyStyle={{
-                                        fontFamily: 'LTR',
+                                        fontFamily: "'Roboto', sans-serif",
                                         fontSize: '22px',
                                     }}
-                                    bodyContent1={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.'}
+                                    bodyContent1={'Nhằm nâng cao hình ảnh doanh nghiệp, phát triển kinh doanh và đảm bảo an ninh trong quá trình hoạt động. Bảo Vệ An Toàn là đơn vị cung cấp dịch vụ bảo vệ uy tín và chất lượng được nhiều khách hàng tin tưởng. Chúng tôi có thể tự tin trở thành đối tác đáng tin cậy đồng hành cùng quý khách hàng.'}
                                 />
                         </MissionContentWrapper>
                     </MissionContent>

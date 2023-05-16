@@ -22,17 +22,17 @@ const IntroSection = (props) => {
                             }}
                             titleContent={'GIỚI THIỆU VỀ BẢO VỆ AN TOÀN'}
                             bodyStyle={{
-                                fontFamily: 'LTR',
+                                fontFamily: "'Tinos', serif",
                                 fontSize: '24px',
                             }}
-                            bodyContent1={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.'}
-                            bodyContent2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.'}
+                            bodyContent1={'Tốt nghiệp từ nhiều trường đại học nổi tiếng về kinh tế và quản lí nhân sự. Bảo Vệ An Toàn được xây dựng từ ban lãnh đạo chất lượng, giàu kinh nghiệm. Với nguồn vốn đầu tư lớn, Bảo Vệ An Toàn đã hoạt động ổn định hơn 10 năm trong lĩnh vực dịch vụ bảo vệ.'}
+                            bodyContent2={'Làm việc với hàng nghìn khách hàng khác nhau trong đó có những khách hàng lớn như thegioididong, AEON Mall, Co.op Food đặc biệt các chung cư, trường học, nhà máy có quy mô lớn. Bảo Vệ An Toàn vẫn luôn hoàn thành tốt nghiệm vụ và được khách hàng tin tưởng sử dụng dịch vụ lâu dài.'}
                         />
                         <div className="icon_intro icon_1">
-                            <img src="./img/1.svg" alt="" />
+                            <img src="./img/1.svg" alt="icon 1" />
                         </div>
                         <div className="icon_intro icon_2">
-                            <img src="./img/2.svg" alt="" />
+                            <img src="./img/2.svg" alt="icon 2" />
                         </div>
                     </IntroContent>
                 </ContainerFuildWrapper>

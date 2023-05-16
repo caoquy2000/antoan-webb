@@ -22,24 +22,61 @@ const Recruitment = (props) => {
                     <h2 style={{
                         textAlign: 'center',
                         padding: '20px 0px',
-                    }}>Tìm đồng đội tại Công Ty Bảo Vệ An Toàn</h2>
+                        fontSize: '32px',
+                    }}><b>Tuyển gấp nam/nữ bảo vệ, giữ kho, giám sát, giữ xe lương cao nhiều ưu đãi tại Thành Phố Hồ Chí Minh.</b></h2>
                     <p style={{
                         fontSize: '18px',
                         paddingBottom: '20px',
                         fontFamily: "'Roboto', sans-serif",
                         fontWeight: '400',
+                        color: 'red',
                     }}>
-                        Không khó để có thể bắt gặp được hình ảnh những cô chú lớn tuổi đang khoác lên mình màu áo xanh trong dịch vụ bảo vệ. 
-                        Số lượng nhân viên bảo vệ lớn tuổi trong ngành dịch vụ này đang chiếm tỷ lệ không nhỏ của doanh nghiệp hoạt động dịch vụ bảo vệ. Công Ty Bảo Vệ An Toàn đang tuyển dụng nhân viên bảo vệ nam/nữ với độ tuổi từ 18 tuổi trở lên. 
-                        Hãy cùng mình tìm hiểu chi tiết hơn trong bài viết sau đây nhé!
+                       Có CMND sẽ được nhận đi làm ngay hồ sơ bổ sung với công ty sau 15 - 30 ngày.
+                        Mức lương và đãi ngộ của công ty
                     </p>
+                    <ul style={{
+                        fontSize: '18px',
+                        paddingLeft: '20px',
+                        fontFamily: "'Roboto', sans-serif",
+                        fontWeight: '400',
+                        paddingBottom: '20px',
+                    }}>
+                        <li><mark><b>Ca 8h/ngày lương 5.300.000đ/tháng.</b></mark></li>
+                        <li><mark><b>Ca 16h/ngày lương 11.000.000đ/tháng.</b></mark></li>
+                        <li><mark><b>Ca 24h/ngày lương 13.000.000đ/tháng.</b></mark></li>
+                        <li>Công ty bao ở toàn bộ, nhà đội đầy đủ tiện nghi, bao ăn hoặc hỗ trợ tiền cơm 1.200.000đ/tháng.</li>
+                        <li>Đối với ngày lễ nếu nhân viên đi làm sẽ được nhận 200% lương và thưởng lễ, ngày tết nhận 300% lương và tưởng tết.</li>
+                        <li>Nhân viên khó khăn sẽ cho ứng 100.000đ-150.000đ/ngày hoặc cho ứng lương mỗi tuần.</li>
+                        <li>Nhân viên khó khăn sẽ được công ty xem xét hỗ trợ vay vốn ngân hàng.</li>
+                        <li>Công ty xét tăng lương 6 tháng/lần từ 500.000đ - 1.500.000đ</li>
+                        <li>Nhân viên có năng lực công ty sẽ xem xét thăng chức chỉ huy trưởng lương `{'>'}` 10.000.000đ</li>
+                        <li>Trực ca đêm sẽ được nghỉ ngơi, thay ca đúng giờ.</li>
+                        <li>Làm việc theo đúng hợp đồng lao động, không bắt ép nhân viên.</li>
+                        <li>Được làm việc trong môi trường hoàn toàn chuyên nghiệp có cơ hội mở rộng quan hệ.</li>
+                        <li>Được hưởng đầy đủ các phúc lợi xã hội (BHYT, BHTN,…).</li>
+                        <li>Được tào tạo, trang bị kiến thức nghiệp vụ miễn phí theo giáo trình của bộ Công An.</li>
+                        <li>Nhận lương tháng 13, đặc biệt công ty không trễ lương của nhân viên.</li>
+                    </ul>
+                    <ul style={{
+                        fontSize: '18px',
+                        paddingLeft: '20px',
+                        fontFamily: "'Roboto', sans-serif",
+                        fontWeight: '400',
+                    }}>
+                        <li>Thực hiện nhiệm vụ, chức năng của nhân viên bảo vệ theo điều lệnh.</li>
+                        <li>Đản bảo an ninh, thường xuyên báo cáo tình hình của đơn vị phụ trách.</li>
+                        <li>Thường xuyên kiểm tra tình hình hoạt động của hệ thống PCCC và các vấn đề có liên quan tại đơn vị làm việc.</li>
+                        <li>Quẹt thẻ, kiểm tra xe ra vào và giúp đỡ khách hàng khi gửi xe.</li>
+                        <li>Nhân viên trực đêm sẽ được nghỉ ngơi, thay ca đúng giờ.</li>
+                        <li>Phối hợp kịp thời với đội tuần tra khi có tình huống cấp bách.</li>
+                    </ul>
+
                     <figure style={{
                         textAlign: 'center',
                         marginTop: '20px',
-                        marginBottom: '20px',
                     }}>
                         <img 
-                            src="./img/tuyen-dung-bao-ve-an-toan.png" 
+                            src="./img/mission.jpg" 
                             alt="Tuyen dung bao ve an toan 1" 
                             style={{
                                 maxWidth: '100%',
@@ -53,7 +90,7 @@ const Recruitment = (props) => {
                         fontSize: '22px',
                         padding: '20px 0px',
                     }}>
-                        Nhiệm vụ cần phải thực hiện
+                        Yêu cầu nhân viên ứng tuyển
                     </h3>
                     <ul style={{
                         fontSize: '18px',
@@ -61,12 +98,10 @@ const Recruitment = (props) => {
                         fontFamily: "'Roboto', sans-serif",
                         fontWeight: '400',
                     }}>
-                        <li>Thực hiện nhiệm vụ trực an ninh cho tòa nhà, chung cư hay ngân hàng...</li>
-                        <li>Giữ xe các hàng quán hay cửa hàng...</li>
-                        <li>Trực sảnh và quan sát camera an ninh, quẹt thẻ xe khi có xe ra vào...</li>
-                        <li>Bảo vệ nhà máy và kho hàng tránh thất thoát…</li>
+                        <li>Giới tính: nam từ 18 - 60 tuổi/ nữ từ 18 - 45 tuổi sức khỏe tốt, thái độ tác phong nghiêm túc.</li>
+                        <li>Đặc biệt ứng viên có kinh nghiệm bảo vệ, là quân nhân xuất ngũ sẽ được xem xét nhận mức lương cao hơn.</li>
                     </ul>
-                    <figure style={{
+                      <figure style={{
                         textAlign: 'center',
                         marginTop: '20px',
                         marginBottom: '20px',
@@ -86,7 +121,7 @@ const Recruitment = (props) => {
                         fontSize: '22px',
                         padding: '20px 0px',
                     }}>
-                       Thu nhập thực tế của nhân viên bảo vệ
+                        Hồ Sơ đăng kí
                     </h3>
                     <ul style={{
                         fontSize: '18px',
@@ -94,89 +129,17 @@ const Recruitment = (props) => {
                         fontFamily: "'Roboto', sans-serif",
                         fontWeight: '400',
                     }}>
-                        <li>Ca làm từ 8h/ngày lương sẽ là 5.000.000đ cho đến 6.000.000đ/tháng.</li>
-                        <li>Ca làm từ 12h/ngày lương sẽ là 6.500.000đ cho đến 8.500.000đ/tháng.</li>
-                        <li>Ca làm từ 16h/ngày lương sẽ là 9.000.000đ cho đến 10.000.000đ/tháng.</li>
-                        <li>Ca làm từ 24/24h lương sẽ là 10.000.000đ cho đến 12.000.000đ/ tháng.</li>
-                        <li>10 Nhân Viên Cơ Động lương sẽ từ 8.000.000đ đến 10.000.000đ/tháng, thời gian làm việc 12h/ngày.</li>
-                        <li>Đội trưởng mức lương sẽ từ 12.000.000đ cho đến 15.000.000đ/tháng, nếu như đã có kinh nghiệm.</li>
-                        <li>Nhân viên làm thời vụ mức lương sẽ từ 20.000đ cho đến 25.000đ/giờ và nhận lương tuần.</li>
-                        <li>Bao ở và bao ăn trong ca trực (tuỳ theo vào tiêu).</li>
-                        <li>Công ty sẽ xét tăng lương cho nhân viên 6 tháng/lần.</li>
-                        <li>Nhân viên khó khăn sẽ được công ty cho ứng lương hàng ngày hay hàng tuần.</li>
+                        <li>Gửi qua Email leducanhlhvn@gmail.com</li>
+                        <li>Liên hệ trực tiếp 090.145.3908 Anh Đức (Phòng tuyển dụng)</li>
+                        <li>Đăng kí trực tiếp tại văn phòng công ty địa chỉ 458A Nguyễn Sơn, Phường Phú Thọ Hòa, Quận Tân Phú, TP. HCM.</li>
                     </ul>
-                    <h3 style={{
-                        fontFamily: 'OSB',
-                        fontSize: '22px',
-                        padding: '20px 0px',
-                    }}>
-                       Yêu cầu tuyển dụng
-                    </h3>
-                    <ul style={{
-                        fontSize: '18px',
-                        paddingLeft: '20px',
-                        fontFamily: "'Roboto', sans-serif",
-                        fontWeight: '400',
-                    }}>
-                        <li>Nam độ tuổi từ 18 đến dưới 60 tuổi.</li>
-                        <li>Nữ độ tuổi từ 18 đến dưới 45 tuổi.</li>
-                        <li>Yêu cầu có sức khỏe thể lực tốt, trung thực và không dị tật, đặc biệt là không có tiền án tiền sự.</li>
-                        <li>Biết đọc và biết viết.</li>
-                        <li>Có CMND nhận việc ngay.</li>
-                    </ul>
-                    <h3 style={{
-                        fontFamily: 'OSB',
-                        fontSize: '22px',
-                        padding: '20px 0px',
-                    }}>
-                       Tại sao nên ứng tuyển tại Công Ty Bảo Vệ An Toàn
-                    </h3>
-                    <p style={{
-                        fontSize: '18px',
-                        fontFamily: "'Roboto', sans-serif",
-                        fontWeight: '400',
-                    }}>
-                        Bởi vì những quyền lợi mà công ty Bảo Vệ An Toàn đã mang đến như:
-                    </p>
-                    <ul style={{
-                        fontSize: '18px',
-                        paddingLeft: '20px',
-                        fontFamily: "'Roboto', sans-serif",
-                        fontWeight: '400',
-                    }}>
-                        <li>Nhân viên bảo vệ tại công ty Bảo Vệ An Toàn được tham gia đầy đủ các công tác đóng bảo hiểm xã hội và bảo hiểm y tế.</li>
-                        <li>Được công ty chăm sóc và cư xử thân thiện và hướng dẫn tận tình.</li>
-                        <li>Khi bắt đầu làm việc từ ngày đầu tiên, thì sẽ được công ty Bảo Vệ An Toàn tặng gói bảo hiểm tai nạn.</li>
-                        <li>Được nhân lương tháng 13 dịp cuối năm.</li>
-                        <li>Hoạt động ngày lễ lương sẽ được nhân đôi, và sẽ được nhân ba khi làm vào những ngày Tết.</li>
-                        <li>Được trải qua quá trình đào tạo chuyên môn bài bản nhất và những khóa rèn luyện chuyên nghiệp.</li>
-                        <li>Đặc biệt là, làm việc tại Công Ty Bảo Vệ An Toàn anh chị và cô chú sẽ nhận được đồng phục và những trang thiết bị để có thể hỗ trợ cho công việc tốt nhất một cách miễn phí.</li>
-                        <li>Nếu như trở thành nhân viên bảo vệ chính thức tại Công Ty Bảo Vệ An Toàn, bạn sẽ nhận được vô số những lợi ích mà công ty mang lại sẽ không nơi đâu đạt được.</li>
-                    </ul>
-                    <p style={{
-                        fontSize: '18px',
-                        paddingTop: '20px',
-                        paddingBottom: '20px',
-                        fontFamily: "'Roboto', sans-serif",
-                        fontWeight: '400',
-                    }}>
-                       Công ty cung cấp dịch vụ bảo vệ Bảo Vệ An Toàn chuyên cung cấp nhiều loại hình dịch vụ bảo vệ như: Bảo vệ mục tiêu cố định, bảo vệ giữ xe, bảo vệ chất lượng cao, bảo vệ sự kiện, lễ hội, bảo vệ yếu nhân, bảo vệ mục tiêu di động, bảo vệ khu công nghiệp hay bảo vệ xe vận chuyển hàng hóa.
-                    </p>
                     <p style={{
                         fontSize: '18px',
                         paddingBottom: '20px',
                         fontFamily: "'Roboto', sans-serif",
                         fontWeight: '400',
                     }}>
-                       Đã được thành lập từ rất lâu, với nhiều năm kinh nghiệm dày dặn trong ngành dịch vụ bảo vệ. Công Ty Bảo Vệ An Toàn sẽ cam kết sẽ cho khách hàng tận hưởng được những trải nghiệm dịch vụ tốt nhất về bảo vệ. Đem lại sự chuyên nghiệp về nghiệp vụ cũng như về kỹ năng công tác chuyên môn của một nhân viên bảo vệ.
-                    </p>
-                    <p style={{
-                        fontSize: '18px',
-                        paddingBottom: '20px',
-                        fontFamily: "'Roboto', sans-serif",
-                        fontWeight: '400',
-                    }}>
-                       Công Ty Bảo Vệ An Toàn đang có nhu cầu tuyển dụng bảo vệ. Đây sẽ là một trong những cơ hội tốt cho những người lao động. Nếu như bạn cũng đảm bảo được đủ sức khoẻ thì hãy nhanh chóng tham gia ngay với chúng tôi để có được một công việc mới kiếm thêm nhiều thu nhập và nâng cao nghiệp vụ của mình hơn.
+                       <i>tìm việc làm bảo vệ tại tphcm, viec lam bao ve, tuyen bao ve luong cao, tim viec lam bao ve, tuyển bảo vệ tại tphcm, cong ty bao ve luong cao, công ty bảo vệ lương cao</i>
                     </p>
                     <style jsx>
                         {

@@ -17,7 +17,7 @@ const BannerHotline = (props) => {
             </BannerHotlineImg>
             <BannerHotlineContent>
                 <span>
-                    HotLine:  0914.68.9999 - 0924.12.9999
+                    HotLine:  0937669977
                 </span>
             </BannerHotlineContent>
         </BannerHotlineWrapper>  

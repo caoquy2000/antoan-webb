@@ -39,27 +39,27 @@ const Header = (props) => {
                     <Hotline>
                         <img src="./img/icCall.svg" alt="Icon Call" />
                         <Middle>HOTLINE:</Middle>
-                        <Phone>0914.68.2423</Phone>
+                        <Phone>0937.6699.77</Phone>
                     </Hotline>
                     <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
                             <li>
-                                <Link href="/trang-chu">TRANG CHỦ</Link>
+                                <Link href="/trang-chu.html">TRANG CHỦ</Link>
                             </li>
                             <li>
-                                <Link href="/trang-chu">GIỚI THIỆU</Link>
+                                <Link href="/gioi-thieu.html">GIỚI THIỆU</Link>
                             </li>
                             <li>
-                                <Link href="/dich-vu">DỊCH VỤ</Link>
+                                <Link href="/dich-vu.html">DỊCH VỤ</Link>
                             </li>
                             <li>
-                                <Link href="/bao-gia">BÁO GIÁ</Link>
+                                <Link href="/bao-gia.html">BÁO GIÁ</Link>
                             </li>
                             <li>
-                                <Link href="/tuyen-dung">TUYỂN  DỤNG</Link>
+                                <Link href="/tuyen-dung.html">TUYỂN  DỤNG</Link>
                             </li>
                             <li>
-                                <Link href="/tin-tuc">TIN TỨC</Link>
+                                <Link href="/tin-tuc.html">TIN TỨC</Link>
                             </li>
                         </ul>
                     </Menu>

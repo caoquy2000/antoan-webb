@@ -40,8 +40,8 @@ const Home = (props) => {
             </SliderSection>
             <IntroSection />
             <MissionSection />
-            <ServiceSection />
             <ChooseSection />
+            <ServiceSection />
             <CustomerSection />
             <NewsSection />
         </>

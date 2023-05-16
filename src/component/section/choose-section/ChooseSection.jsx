@@ -33,7 +33,7 @@ const ChooseSection = (props) => {
                                 NHÂN VIÊN NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ
                             </ChooseItemTitle>
                             <ChooseItemContent>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.
+                            Bảo Vệ An Toàn là đơn vị chuyên cung cấp dịch vụ bảo vệ chuyên nghiệp, đảm bảo trật tự an ninh – xã hội tại tp. Hồ Chí Minh. Để làm hài lòng khách hàng, chắc chắn phải kể đến tầm quan trọng trong việc đào tạo đội ngũ nhân viên: Nhiệt Tình - Thân Thiện - Mạnh Mẽ.
                             </ChooseItemContent>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -48,7 +48,7 @@ const ChooseSection = (props) => {
                                 PHÍ DỊCH VỤ CẠNH TRANH TỪ PHỔ THÔNG ĐẾN CAO CẤP
                             </ChooseItemTitle>
                             <ChooseItemContent>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.
+                            Khi thuê dịch vụ bảo vệ thì ngoài chất lượng, hiệu quả công việc thì khách hàng bao giờ cũng quan tâm đến yếu tố giá cả. Hãy yên tâm khi lựa chọn dịch vụ của công ty Bảo Vệ An Toàn, bạn sẽ được đảm bảo phí dịch vụ cạnh tranh từ phổ thông đến cao cấp.
                             </ChooseItemContent>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -67,7 +67,7 @@ const ChooseSection = (props) => {
                                 ISO 9001:2015
                             </ChooseItemTitle>
                             <ChooseItemContent>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.
+                            Đào tạo đội ngũ bảo vệ là một trong những khâu hết sức quan trọng để mang đến chất lượng dịch vụ tốt nhất cho khách hàng. Tại Bảo Vệ An Toàn thường xuyên tổ chức các các khóa đào tạo chuyên nghiệp để đảm bảo nghiệp vụ tinh thông, tác phong nhanh nhẹn cho từng nhân viên.
                             </ChooseItemContent>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -82,7 +82,7 @@ const ChooseSection = (props) => {
                                 CÔNG TY TRANG BỊ BẢO HIỂM TRÁCH NHIỆM NGHỀ NGHIỆP CHO KHÁCH HÀNG
                             </ChooseItemTitle>
                             <ChooseItemContent>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla quam mollis nulla purus, interdum. Viverra imperdiet id eros nunc, diam sed sed condimentum. Ultrices molestie enim malesuada id odio.
+                            Tiền thân là Công ty cung cấp dịch vụ việc làm mỗi năm cung cấp cho thị trường vài nghìn lao động.Do đó, Công ty bảo vệ An Toàn nhanh chóng tuyển dụng và đáp ứng nhu cầu số lượng lớn của khách hàng trong thời gian sớm nhất.
                             </ChooseItemContent>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
@@ -97,6 +97,9 @@ const ChooseSectionWrapper = styled.section`
     margin-top: 85px;
     .vertical-timeline-element-content p {
         margin: initial !important;
+    }
+    @media (max-width: 1050px) {
+        margin-top: 250px;
     }
 `;
 
@@ -143,7 +146,7 @@ const ChooseItemTitle = styled.h4`
     line-height: 41px;
 `;
 const ChooseItemContent = styled.p`
-    font-family: 'LTR';
+    font-family:  'Roboto', sans-serif;
 `;
 
 export default ChooseSection;
