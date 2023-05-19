@@ -60,7 +60,20 @@ const ServiceDetail7 = (props) => {
                         }}>
                            Nhân viên bảo vệ khu công nghiệp cần phải thực hiện nhiệm vụ gì?
                         </h3>
-
+                        <figure style={{
+                            textAlign: 'center',
+                            marginBottom: '20px',
+                        }}>
+                            <img 
+                                src="./img/bao-ve-kho-hang.jpg" 
+                                alt="Dich Vu Bao Ve Khu Cong Nghiep" 
+                                style={{
+                                    maxWidth: '100%',
+                                    height: 'auto',
+                                }}
+                            />
+                            <figcaption>Dịch vụ bảo vệ kho hàng</figcaption>
+                        </figure>
                         <p style={{
                             fontSize: '18px',
                             fontFamily: "'Roboto', sans-serif",

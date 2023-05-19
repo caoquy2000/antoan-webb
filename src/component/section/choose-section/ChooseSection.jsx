@@ -27,7 +27,7 @@ const ChooseSection = (props) => {
                             icon={<StarIcon />}
                         >
                             <ChooseItemImg>
-                                <img src="./img/choose-reasion-1.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
+                                <img src="./img/hinh-3.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
                             </ChooseItemImg>
                             <ChooseItemTitle>
                                 NHÂN VIÊN NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ
@@ -59,7 +59,7 @@ const ChooseSection = (props) => {
                             icon={<GppGoodIcon />}
                         >
                            <ChooseItemImg>
-                                <img src="./img/choose-reasion-1.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
+                                <img src="./img/hinh-4.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
                             </ChooseItemImg>
                             <ChooseItemTitle>
                                 ÁP DỤNG QUY TRÌNH QUẢN LÝ CHẤT LƯỢNG THEO TIÊU CHUẨN 
@@ -76,7 +76,7 @@ const ChooseSection = (props) => {
                             icon={<HomeRepairServiceIcon />}
                         >
                            <ChooseItemImg>
-                                <img src="./img/choose-reasion-1.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
+                                <img src="./img/hinh-5.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
                             </ChooseItemImg>
                             <ChooseItemTitle>
                                 CÔNG TY TRANG BỊ BẢO HIỂM TRÁCH NHIỆM NGHỀ NGHIỆP CHO KHÁCH HÀNG

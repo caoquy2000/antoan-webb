@@ -90,6 +90,20 @@ const ServiceDetail2 = (props) => {
                         }}>
                             Những nhiệm vụ chính của các nhân viên bảo vệ giữ xe
                         </h3>
+                        <figure style={{
+                            textAlign: 'center',
+                            marginBottom: '20px',
+                        }}>
+                            <img 
+                                src="./img/hinh-2.jpg" 
+                                alt="Bao ve giu xe 1" 
+                                style={{
+                                    maxWidth: '100%',
+                                    height: 'auto',
+                                }}
+                            />
+                            <figcaption>Nhân viên chất lượng tại bảo vệ an toàn.</figcaption>
+                        </figure>
                         <p style={{
                             fontSize: '18px',
                             fontFamily: "'Roboto', sans-serif",

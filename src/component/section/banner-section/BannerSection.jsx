@@ -3,12 +3,14 @@ import React from "react";
 import styled from "styled-components";
 
 const BannerSection = (props) => {
-
+    const {
+        imgLink,
+    } = props;
     return (
         <BannerSectionWrapper>
             <ContainerWrapper>
                 <BannerSectionImage>
-                    <img src="./img/banner-service.png" alt="Banner Service" />
+                    <img src={imgLink ? imgLink : './img/banner-service.png'} alt="Banner Service" />
                 </BannerSectionImage>
             </ContainerWrapper>
         </BannerSectionWrapper>

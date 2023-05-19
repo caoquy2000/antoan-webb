@@ -16,7 +16,7 @@ const Service = (props) => {
                    Dịch Vụ
                 </title>
             </Head>
-            <BannerSection />
+            <BannerSection imgLink={'./img/hinh-4.jpg'} />
             <section className="service_page_section_wrapper">
                 <ContainerWrapper>
                     <div className="service_page_container">

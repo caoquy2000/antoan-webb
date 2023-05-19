@@ -29,7 +29,7 @@ const MenuMobile = (props) => {
                         <a href="/tuyen-dung.html">TUYỂN  DỤNG</a>
                     </li>
                     <li>
-                        <a href="/tin-tuc.html">TIN TỨC</a>
+                        <a href="/cong-viec-bao-ve.html">TIN TỨC</a>
                     </li>
                 </MenuItem>
             </MenuMobileWrapper>

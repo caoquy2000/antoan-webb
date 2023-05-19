@@ -59,7 +59,7 @@ const Header = (props) => {
                                 <Link href="/tuyen-dung.html">TUYỂN  DỤNG</Link>
                             </li>
                             <li>
-                                <Link href="/tin-tuc.html">TIN TỨC</Link>
+                                <Link href="/cong-viec-bao-ve.html">TIN TỨC</Link>
                             </li>
                         </ul>
                     </Menu>
