@@ -29,3 +29,10 @@ export const GRAY_COLOR = '#F4F4F4';
 export const TEXT_DESCRIPTION_COLOR = '#8D8D8D';
 
 export const paddingULLI = '8px';
+
+export const BACKGROUND_COLOR = '#0f0f10';
+export const TEXT_COLOR = '#fff';
+export const LOGO_COLOR = '#EEC317';
+
+export const BACKGROUND_PAGE_CHILD = '#fff';
+export const TEXT_PAGE_CHILD = '#000';

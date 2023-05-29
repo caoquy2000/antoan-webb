@@ -97,6 +97,7 @@ const CustomerLogo = styled.div`
 `;
 
 const CustomerContent = styled.p`
+    color: ${variable.BLACK_COLOR};
     padding: 26px 390px 15px;
     @media (max-width: 1200px) {
         padding: 26px 190px 15px;

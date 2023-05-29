@@ -101,11 +101,11 @@ const MissionWrapper = styled.section`
     width: 100%;
     height: 0;
     padding-top: 31.6%;
-    margin-top: 125px;
+    background-color: ${variable.WHITE_COLOR};
+    color: ${variable.BLACK_COLOR};
     @media (max-width: 1100px) {
         padding-top: initial;
         height: initial;
-        margin-top: 50px;
     }
 `;
 

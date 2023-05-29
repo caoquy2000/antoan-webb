@@ -25,6 +25,7 @@ const NewsSection  = (props) => {
                                     alt={item.alt}
                                     title={item.title}
                                     content={item.description}
+                                    route={item.link}
                                     cardStyle={{
                                         textAlign: 'center',
                                         boxShadow: '1px 1px 5px 1px rgba(0, 0, 0, 0.1)',
@@ -133,24 +134,24 @@ const NewsButton = styled.div`
 const newsMock = [
     {
         banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
-        alt: 'Tin Tức Bảo Vệ an toàn 1',
-        title: 'Tin Tức Bảo Vệ an toàn 1',
+        alt: 'Công Việc Bảo Vệ',
+        title: 'Công Việc Bảo Vệ',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '#',
+        link: '/cong-viec-bao-ve.html',
     },
     {
         banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
-        alt: 'Tin Tức Bảo Vệ an toàn 2',
-        title: 'Tin Tức Bảo Vệ an toàn 2',
+        alt: 'Công Việc Bảo Vệ',
+        title: 'Công Việc Bảo Vệ',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '#',
+        link: '/cong-viec-bao-ve.html',
     },
     {
         banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
-        alt: 'Tin Tức Bảo Vệ an toàn 2',
-        title: 'Tin Tức Bảo Vệ an toàn 2',
+        alt: 'Công Việc Bảo Vệ',
+        title: 'Công Việc Bảo Vệ',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '#',
+        link: '/cong-viec-bao-ve.html',
     }
 ]
 

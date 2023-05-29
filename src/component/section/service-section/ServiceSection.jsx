@@ -59,11 +59,12 @@ const ServiceSection = (props) => {
 
 const ServiceWrapper = styled.section`
     margin-top: 90px;
-    background-color: ${variable.GRAY_COLOR};
+    background-color: ${variable.BACKGROUND_COLOR};
+
 `;
 
 const ServiceTitle = styled.h3`
-    color: ${variable.RED_COLOR};
+    color: ${variable.WHITE_COLOR};
     font-family: 'OSB';
     font-size: 30px;
     padding-top: 30px;

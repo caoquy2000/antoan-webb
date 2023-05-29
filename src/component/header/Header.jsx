@@ -31,8 +31,14 @@ const Header = (props) => {
                         <img src="./img/logo.png" alt="Logo Bao Ve An Toan" />
                     </LogoImg>
                     <LogoText>
-                        <h1 className="logo">BẢO VỆ AN TOÀN SECURITY</h1>
-                        <p>UY TÍN - TẬN TÂM - CHẤT LƯỢNG</p>
+                        <h1 className="logo"
+                            style={{
+                                color: variable.LOGO_COLOR,
+                            }}
+                        >BẢO VỆ AN TOÀN SECURITY</h1>
+                        <p style={{
+                            color: variable.TEXT_COLOR,
+                        }}>UY TÍN - TẬN TÂM - CHẤT LƯỢNG</p>
                     </LogoText>
                 </LogoWrapper>
                 <MenuWrapper>
@@ -158,7 +164,7 @@ const Hotline = styled.div `
     font-family: 'OSB', sans-serif;
     font-size: 20px;
     line-height: 1;
-    color: ${variable.MAIN_COLOR};
+    color: ${variable.RED_COLOR};
     img {
         width: ${variable.ICON_WIDTH};
         height: ${variable.ICON_HEIGHT};
@@ -171,7 +177,7 @@ const Middle = styled.span `
 
 const Phone = styled.a `
     text-decoration: none;
-    color: ${variable.RED_COLOR};
+    color: ${variable.WHITE_COLOR};
 `;
 const paddingMargin = '24px';
 const Menu = styled.div `
@@ -202,7 +208,7 @@ const Menu = styled.div `
             content: "";
             width: 0;
             height: 0;
-            border-top: 72px solid ${variable.MAIN_COLOR};
+            border-top: 72px solid ${variable.LOGO_COLOR};
             border-left: 72px solid transparent;
             position: absolute;
             right: 100%;
@@ -216,7 +222,7 @@ const Menu = styled.div `
         line-height: 1;
         padding: ${paddingMargin} 22px;
         color: ${variable.WHITE_COLOR};
-        background-color: ${variable.MAIN_COLOR};
+        background-color: ${variable.LOGO_COLOR};
     }
     @media (max-width: ${variable.MD_MAX}) {
         ul {

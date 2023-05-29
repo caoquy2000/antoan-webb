@@ -92,7 +92,7 @@ const Service = (props) => {
                         font-size: 30px;
                         line-height: 44px;
                         text-transform: uppercase;
-                        color: ${variable.RED_COLOR};
+                        color: ${variable.LOGO_COLOR};
                         padding-bottom: 15px;
                     }
                     .page_container {

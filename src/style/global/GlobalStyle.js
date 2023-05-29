@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { CONTAINER_MAX_WIDTH, MAIN_COLOR } from "common/variable";
+import { BACKGROUND_COLOR, CONTAINER_MAX_WIDTH, MAIN_COLOR, TEXT_COLOR } from "common/variable";
 
 const GlobalStyle = createGlobalStyle `
     * {
@@ -17,6 +17,8 @@ const GlobalStyle = createGlobalStyle `
     body {
         font-family: 'OSR', sans-serif;
         max-width: ${CONTAINER_MAX_WIDTH};
+        background: ${BACKGROUND_COLOR};
+        color: ${TEXT_COLOR};
     }
 
     /* START: scrollbar */

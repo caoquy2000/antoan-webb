@@ -42,6 +42,9 @@ const IntroSection = (props) => {
 };
 
 const IntroWrapper = styled.section`
+    background-color: ${variable.WHITE_COLOR};
+    color: ${variable.BLACK_COLOR};
+    padding-bottom: 125px;
     ${ContainerFuildWrapper} {
         display: flex;
         align-items: center;
@@ -50,6 +53,9 @@ const IntroWrapper = styled.section`
         ${ContainerFuildWrapper} {
             display: initial;
         }
+    }
+    @media (max-width: 1100px) {
+        padding-bottom: 50px;
     }
 `;
 
@@ -88,6 +94,9 @@ const IntroContent = styled.div`
     @media (max-width: 1200px) {
         padding: 0px 10px 0px 20px;
         .icon_intro.icon_1 {
+            display: none;
+        }
+        .icon_intro.icon_2 {
             display: none;
         }
     }

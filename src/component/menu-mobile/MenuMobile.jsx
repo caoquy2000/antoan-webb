@@ -43,7 +43,7 @@ const MenuMobileContainer = styled.div`
         display: initial;
         position: absolute;
         top: 10%;
-        right: 0;
+        left: 0;
     }   
     @media (max-width: 420px) {
         top: 15%;
@@ -57,7 +57,7 @@ const MenuMobileWrapper = styled.div `
 const MenuChecker = styled.input `
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     height: 3rem;
     width: 3rem;
     opacity: 0;
@@ -84,7 +84,7 @@ const MenuChecker = styled.input `
     }
     &:checked~.menu-items {
         display: block;
-        transform: translateX(-10%);
+        transform: translateX(100%);
         opacity: 1;
         pointer-events: auto;
     }
@@ -95,7 +95,7 @@ const MenuHamm = styled.div `
     width: 3rem;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     padding: 0.5rem;
     z-index: 8;
     display: flex;
@@ -143,6 +143,11 @@ const MenuItem = styled.ul `
     }
     li .first-item {
         margin-top: 35px;
+    }
+    @media (max-width: 500px) {
+        li a {
+            font-size: 22px;
+        }
     }
 `;
 
