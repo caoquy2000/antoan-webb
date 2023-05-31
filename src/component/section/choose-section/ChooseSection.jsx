@@ -40,6 +40,9 @@ const ChooseSection = (props) => {
                             className="vertical-timeline-element--work"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<AssignmentTurnedInIcon />}
+                            style={{
+                                color: `${variable.BLACK_COLOR}`,
+                            }}
                         >
                            <ChooseItemImg>
                                 <img src="./img/bao-ve-su-kien-le-hoi.png" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />
@@ -74,6 +77,9 @@ const ChooseSection = (props) => {
                             className="vertical-timeline-element--work"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<HomeRepairServiceIcon />}
+                            style={{
+                                color: `${variable.BLACK_COLOR}`,
+                            }}
                         >
                            <ChooseItemImg>
                                 <img src="./img/hinh-5.jpg" alt="NHÂN VIÊN  NHIỆT TÌNH - THÂN THIỆN - MẠNH MẼ" />

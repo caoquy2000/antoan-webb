@@ -135,8 +135,8 @@ const Recruitment = (props) => {
                         fontWeight: '400',
                     }}>
                         <li>Gửi qua Email leducanhlhvn@gmail.com</li>
-                        <li>Liên hệ trực tiếp 090.145.3908 Anh Đức (Phòng tuyển dụng)</li>
-                        <li>Đăng kí trực tiếp tại văn phòng công ty địa chỉ 458A Nguyễn Sơn, Phường Phú Thọ Hòa, Quận Tân Phú, TP. HCM.</li>
+                        <li>Liên hệ trực tiếp 0937.6699.77 Anh Đức (Phòng tuyển dụng)</li>
+                        <li>Đăng kí trực tiếp tại văn phòng công ty địa chỉ 207B Trần Thủ Độ, phường Phú Thạnh, Quận Tân Phú, TP. HCM.</li>
                     </ul>
                     <p style={{
                         fontSize: '18px',

@@ -229,7 +229,7 @@ const serviceMock = [
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo...',
     },
     {
-        banner: './img/bao-ve-giu-xe.png',
+        banner: './img/dich-vu-moi.jpg',
         alt: 'Bảo Vệ Giữ Xe',
         title: 'Bảo vệ Giữ xe',
         route: '/dich-vu-bao-ve-giu-xe',
@@ -270,13 +270,13 @@ const serviceMock = [
         route: '/dich-vu-bao-ve-khu-cong-nghiep',
         description: 'Công ty Bảo Vệ An Toàn tự hào cung cấp dịch vụ bảo vệ chất lượng cao đến quý doanh nghiệp khách hàng...',
     },
-    {
-        banner: './img/bao-ve-xe-van-chuyen.png',
-        alt: 'Bảo vệ xe vận chuyển',
-        title: 'Bảo vệ xe vận chuyển',
-        route: '/dich-vu-bao-ve-xe-van-chuyen',
-        description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
-    }
+    // {
+    //     banner: './img/bao-ve-xe-van-chuyen.png',
+    //     alt: 'Bảo vệ xe vận chuyển',
+    //     title: 'Bảo vệ xe vận chuyển',
+    //     route: '/dich-vu-bao-ve-xe-van-chuyen',
+    //     description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
+    // }
 ];
 
 export default ServicePageSection;

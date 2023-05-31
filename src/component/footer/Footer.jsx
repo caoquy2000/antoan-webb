@@ -63,8 +63,8 @@ const Footer = (props) => {
 
 const FooterWrapper = styled.footer`
     margin-top: 85px;
-    background-color: ${variable.MAIN_COLOR};
-    color: ${variable.WHITE_COLOR};
+    background-color: ${variable.BACKGROUND_COLOR};
+    color: ${variable.LOGO_COLOR};
 `;
 
 const FooterContainer = styled.div`

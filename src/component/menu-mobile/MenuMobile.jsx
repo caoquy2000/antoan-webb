@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import * as variable from 'common/variable';
+import { useRouter } from "next/router";
 
 const MenuMobile = (props) => {
+    const router = useRouter();
     return (
         <MenuMobileContainer>
             <MenuMobileWrapper>
@@ -13,22 +15,22 @@ const MenuMobile = (props) => {
                     <span className="line line3"></span>
                 </MenuHamm>
                 <MenuItem className="menu-items">
-                    <li>
+                    <li className={router.pathname.includes('/trang-chu') ? 'active' : ''}>
                         <a href="/trang-chu.html" className="first-item">TRANG CHỦ</a>
                     </li>
-                    <li>
+                    <li className={router.pathname.includes('/gioi-thieu') ? 'active' : ''}>
                         <a href="/gioi-thieu.html">GIỚI THIỆU</a>
                     </li>
-                    <li>
+                    <li className={router.pathname.includes('/dich-vu') ? 'active' : ''}>
                         <a href="/dich-vu.html">DỊCH VỤ</a>
                     </li>
-                    <li>
+                    <li className={router.pathname.includes('/bao-gia') ? 'active' : ''}>
                         <a href="/bao-gia.html">BÁO GIÁ</a>
                     </li>
-                    <li>
+                    <li className={router.pathname.includes('/tuyen-dung') ? 'active' : ''}>
                         <a href="/tuyen-dung.html">TUYỂN  DỤNG</a>
                     </li>
-                    <li>
+                    <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
                         <a href="/cong-viec-bao-ve.html">TIN TỨC</a>
                     </li>
                 </MenuItem>
@@ -58,8 +60,8 @@ const MenuChecker = styled.input `
     position: absolute;
     top: 0;
     left: 0;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     opacity: 0;
     z-index: 9;
     &:hover {
@@ -69,7 +71,7 @@ const MenuChecker = styled.input `
         background-color: ${variable.RED_COLOR};
     }
     &:checked~.menu-hamm .line {
-        width: 2.3rem;
+        width: 1.7rem;
     }
     &:checked~.menu-hamm .line1 {
         display: block;
@@ -91,8 +93,8 @@ const MenuChecker = styled.input `
 `;
 
 const MenuHamm = styled.div `
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -101,12 +103,12 @@ const MenuHamm = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: ${variable.MAIN_COLOR};
+    background-color: ${variable.LOGO_COLOR};
     border-radius: 0.25em;
     .line {
         background-color: white;
         border-radius: 1em;
-        width: 2rem;
+        width: 1.5rem;
         height: 0.25rem;
     }
     .line1 {
@@ -127,13 +129,16 @@ const MenuItem = styled.ul `
     list-style: none;
     opacity: 0;
     font-size: 2rem;
-    border: 4px solid ${variable.MAIN_COLOR};
-    background-color: ${variable.MAIN_COLOR};
+    border: 4px solid ${variable.BLACK_COLOR};
+    background-color: ${variable.BLACK_COLOR};
     border-radius: 0.25em;
     z-index: 7;
     transform: translateX(0);
     transition: transform 100ms ease-in-out, opacity 200ms;
     pointer-events: none;
+    li.active a {
+        color: ${variable.LOGO_COLOR};
+    }
     li a {
         text-decoration: none;
         color: ${variable.WHITE_COLOR};

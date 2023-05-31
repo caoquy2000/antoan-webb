@@ -4,12 +4,15 @@ import React, { useEffect, useRef, useState } from "react";
 import MenuMobile from "component/menu-mobile/MenuMobile";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Header = (props) => {
     const headerRef = useRef(null);
     const [headerHeight, setHeaderHeight] = useState(0);
     const { scrollY } = useScroll();
     const [isFixed, setIsFixed] = useState(false);
+
+    const router = useRouter();
 
     useEffect(() => {
         setHeaderHeight(headerRef?.current?.clientHeight);
@@ -38,7 +41,8 @@ const Header = (props) => {
                         >BẢO VỆ AN TOÀN SECURITY</h1>
                         <p style={{
                             color: variable.TEXT_COLOR,
-                        }}>UY TÍN - TẬN TÂM - CHẤT LƯỢNG</p>
+                            textTransform: 'uppercase',
+                        }}>Niềm Tin Của Bạn</p>
                     </LogoText>
                 </LogoWrapper>
                 <MenuWrapper>
@@ -49,22 +53,22 @@ const Header = (props) => {
                     </Hotline>
                     <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
-                            <li>
+                            <li className={router.pathname.includes('/trang-chu') ? 'active' : ''}>
                                 <Link href="/trang-chu.html">TRANG CHỦ</Link>
                             </li>
-                            <li>
+                            <li className={router.pathname.includes('/gioi-thieu') ? 'active' : ''}>
                                 <Link href="/gioi-thieu.html">GIỚI THIỆU</Link>
                             </li>
-                            <li>
+                            <li className={router.pathname.includes('/dich-vu') ? 'active' : ''}>
                                 <Link href="/dich-vu.html">DỊCH VỤ</Link>
                             </li>
-                            <li>
+                            <li className={router.pathname.includes('/bao-gia') ? 'active' : ''}>
                                 <Link href="/bao-gia.html">BÁO GIÁ</Link>
                             </li>
-                            <li>
+                            <li className={router.pathname.includes('/tuyen-dung') ? 'active' : ''}>
                                 <Link href="/tuyen-dung.html">TUYỂN  DỤNG</Link>
                             </li>
-                            <li>
+                            <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
                                 <Link href="/cong-viec-bao-ve.html">TIN TỨC</Link>
                             </li>
                         </ul>
@@ -199,6 +203,9 @@ const Menu = styled.div `
             }
         }
     }
+    &.menu_fixed ul .active a {
+        color: ${variable.LOGO_COLOR};
+    }
 
     ul {
         display: flex;
@@ -223,6 +230,9 @@ const Menu = styled.div `
         padding: ${paddingMargin} 22px;
         color: ${variable.WHITE_COLOR};
         background-color: ${variable.LOGO_COLOR};
+    }
+    ul .active a {
+        color: ${variable.BLACK_COLOR};
     }
     @media (max-width: ${variable.MD_MAX}) {
         ul {

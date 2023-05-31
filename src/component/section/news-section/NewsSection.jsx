@@ -140,14 +140,14 @@ const newsMock = [
         link: '/cong-viec-bao-ve.html',
     },
     {
-        banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
+        banner: './img/gioi-thieu-bao-ve-an-toan-01.jpg',
         alt: 'Công Việc Bảo Vệ',
         title: 'Công Việc Bảo Vệ',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
         link: '/cong-viec-bao-ve.html',
     },
     {
-        banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
+        banner: './img/gioi-thieu-bao-ve-an-toan-04.jpg',
         alt: 'Công Việc Bảo Vệ',
         title: 'Công Việc Bảo Vệ',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
