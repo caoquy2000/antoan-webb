@@ -125,14 +125,14 @@ const serviceMock = [
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
     },
     {
-        banner: './img/bao-ve-yeu-nhan.png',
+        banner: './img/hinh-banner-dich-vu-1.jpg',
         alt: 'Bảo Vệ Yếu Nhân',
         title: 'Bảo Vệ Yếu Nhân',
         route: '/dich-vu-bao-ve-yeu-nhan.html',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu...',
     },
     {
-        banner: './img/bao-ve-muc-tieu-di-dong.png',
+        banner: './img/hinh-banner-dich-vu-2.jpg',
         alt: 'Bảo Vệ Mục Tiêu Di Động',
         title: 'Bảo Vệ Mục Tiêu Di Động',
         route: '/dich-vu-bao-ve-muc-tieu-di-dong.html',
