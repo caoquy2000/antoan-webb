@@ -36,3 +36,7 @@ export const LOGO_COLOR = '#EEC317';
 
 export const BACKGROUND_PAGE_CHILD = '#fff';
 export const TEXT_PAGE_CHILD = '#000';
+
+export const collectionConst = {
+    news: 'news',
+};

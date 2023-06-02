@@ -69,7 +69,7 @@ const Header = (props) => {
                                 <Link href="/tuyen-dung.html">TUYỂN  DỤNG</Link>
                             </li>
                             <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
-                                <Link href="/cong-viec-bao-ve.html">TIN TỨC</Link>
+                                <Link href="/tin-tuc">TIN TỨC</Link>
                             </li>
                         </ul>
                     </Menu>
