@@ -1,7 +1,9 @@
 
 import Layout from "component/layout";
+import LoadingPage from "component/loading";
 import Router from "next/router";
 import React from "react";
+import '../global.css'
 const routeChange = () => {
   // Temporary fix to avoid flash of unstyled content
   // during route transitions. Keep an eye on this
@@ -39,17 +41,19 @@ function MyApp({ Component, pageProps }) {
     };
   }, []);
   return (
-    <Layout>  
+    <>  
       {
         loading ? 
         (
-          <h1>loading...</h1>
+          <LoadingPage />
         ) : 
         (
-          <Component {...pageProps} />
+          <Layout>
+            <Component {...pageProps} />   
+          </Layout>
         )
       }
-    </Layout>
+    </>
   )
 }
 

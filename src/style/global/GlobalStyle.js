@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle `
         -webkit-appearance: none;
     }
     body {
-        font-family: 'OSR', sans-serif;
+        font-family: 'Roboto', sans-serif;
         max-width: ${CONTAINER_MAX_WIDTH};
         background: ${BACKGROUND_COLOR};
         color: ${TEXT_COLOR};

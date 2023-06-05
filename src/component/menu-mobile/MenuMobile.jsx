@@ -16,22 +16,22 @@ const MenuMobile = (props) => {
                 </MenuHamm>
                 <MenuItem className="menu-items">
                     <li className={router.pathname.includes('/trang-chu') ? 'active' : ''}>
-                        <a href="/trang-chu.html" className="first-item">TRANG CHỦ</a>
+                        <a href="/trang-chu" className="first-item">TRANG CHỦ</a>
                     </li>
                     <li className={router.pathname.includes('/gioi-thieu') ? 'active' : ''}>
-                        <a href="/gioi-thieu.html">GIỚI THIỆU</a>
+                        <a href="/gioi-thieu">GIỚI THIỆU</a>
                     </li>
                     <li className={router.pathname.includes('/dich-vu') ? 'active' : ''}>
-                        <a href="/dich-vu.html">DỊCH VỤ</a>
+                        <a href="/dich-vu">DỊCH VỤ</a>
                     </li>
                     <li className={router.pathname.includes('/bao-gia') ? 'active' : ''}>
-                        <a href="/bao-gia.html">BÁO GIÁ</a>
+                        <a href="/bao-gia">BÁO GIÁ</a>
                     </li>
                     <li className={router.pathname.includes('/tuyen-dung') ? 'active' : ''}>
-                        <a href="/tuyen-dung.html">TUYỂN  DỤNG</a>
+                        <a href="/tuyen-dung">TUYỂN  DỤNG</a>
                     </li>
                     <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
-                        <a href="/cong-viec-bao-ve.html">TIN TỨC</a>
+                        <a href="/cong-viec-bao-ve">TIN TỨC</a>
                     </li>
                 </MenuItem>
             </MenuMobileWrapper>

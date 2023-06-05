@@ -31,7 +31,7 @@ const Header = (props) => {
             <HeaderContainer ref={headerRef}>
                 <LogoWrapper>
                     <LogoImg>
-                        <img src="./img/logo.png" alt="Logo Bao Ve An Toan" />
+                        <img src="img/logo.png" alt="Logo Bao Ve An Toan" />
                     </LogoImg>
                     <LogoText>
                         <h1 className="logo"
@@ -47,26 +47,26 @@ const Header = (props) => {
                 </LogoWrapper>
                 <MenuWrapper>
                     <Hotline>
-                        <img src="./img/icCall.svg" alt="Icon Call" />
+                        <img src="img/icCall.svg" alt="Icon Call" />
                         <Middle>HOTLINE:</Middle>
                         <Phone>0937.6699.77</Phone>
                     </Hotline>
                     <Menu className={!!isFixed && 'menu_fixed'}>
                         <ul>
                             <li className={router.pathname.includes('/trang-chu') ? 'active' : ''}>
-                                <Link href="/trang-chu.html">TRANG CHỦ</Link>
+                                <Link href="/trang-chu">TRANG CHỦ</Link>
                             </li>
                             <li className={router.pathname.includes('/gioi-thieu') ? 'active' : ''}>
-                                <Link href="/gioi-thieu.html">GIỚI THIỆU</Link>
+                                <Link href="/gioi-thieu">GIỚI THIỆU</Link>
                             </li>
                             <li className={router.pathname.includes('/dich-vu') ? 'active' : ''}>
-                                <Link href="/dich-vu.html">DỊCH VỤ</Link>
+                                <Link href="/dich-vu">DỊCH VỤ</Link>
                             </li>
                             <li className={router.pathname.includes('/bao-gia') ? 'active' : ''}>
-                                <Link href="/bao-gia.html">BÁO GIÁ</Link>
+                                <Link href="/bao-gia">BÁO GIÁ</Link>
                             </li>
                             <li className={router.pathname.includes('/tuyen-dung') ? 'active' : ''}>
-                                <Link href="/tuyen-dung.html">TUYỂN  DỤNG</Link>
+                                <Link href="/tuyen-dung">TUYỂN  DỤNG</Link>
                             </li>
                             <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
                                 <Link href="/tin-tuc">TIN TỨC</Link>
@@ -219,7 +219,7 @@ const Menu = styled.div `
             border-left: 72px solid transparent;
             position: absolute;
             right: 100%;
-            top: -${paddingMargin};
+            top: -28px;
         }
     }
     ul li a {

@@ -50,7 +50,7 @@ const News = (props) => {
                                             alt={item.altImgBanner}
                                             title={item.titleContent}
                                             content={item.metaDescription}
-                                            route={item.idPath}
+                                            route={`/tin-tuc/${item.idPath}`}
                                             cardStyle={{
                                                 borderRadius: '8px',
                                                 boxShadow: '1px 1px 5px 1px rgba(0, 0, 0, 0.1)',
@@ -81,12 +81,12 @@ const News = (props) => {
                                 ))
                             }
                             </div>
-                            <div className="service_banner">
+                            {/* <div className="service_banner">
                                 <BannerHotline />
                                 <div className="send_phone_wrapper">
                                     <BannerSendPhone />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </ContainerWrapper>
@@ -115,9 +115,9 @@ const News = (props) => {
                         display: flex;
                     }
                     .service_list {
-                        width: 50%;
+                        width: 100%;
                         display: grid;
-                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-columns: repeat(3, 1fr);
                         column-gap: 87px;
                         row-gap: 64px;
                     }
