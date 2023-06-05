@@ -11,7 +11,9 @@ const RecruitBanner = (props) => {
         <RecruitBannerWrapper>
             <img src={img} alt="Tuyen Dung Img" />
             <RecruitBannerOverlay />
-            <RecruitBannerButton>
+            <RecruitBannerButton
+                href="javascript:void(0)"
+            >
                 {buttonText}
             </RecruitBannerButton>
         </RecruitBannerWrapper>

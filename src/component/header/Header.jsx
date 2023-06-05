@@ -179,7 +179,7 @@ const Middle = styled.span `
     padding: 0px 4px 0px 8px;
 `;
 
-const Phone = styled.a `
+const Phone = styled.p `
     text-decoration: none;
     color: ${variable.WHITE_COLOR};
 `;

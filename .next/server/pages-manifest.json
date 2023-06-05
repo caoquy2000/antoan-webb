@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/gioi-thieu": "pages/gioi-thieu.js",
-  "/trang-chu": "pages/trang-chu.js",
-  "/tin-tuc/[idPath]": "pages/tin-tuc/[idPath].js",
+  "/bao-gia": "pages/bao-gia.js",
   "/tin-tuc": "pages/tin-tuc.js"
 }
