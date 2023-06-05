@@ -101,7 +101,7 @@ const MissionWrapper = styled.section`
     width: 100%;
     height: 0;
     padding-top: 31.6%;
-    color: ${variable.WHITE_COLOR};
+    color: ${variable.LOGO_COLOR};
     @media (max-width: 1100px) {
         padding-top: initial;
         height: initial;

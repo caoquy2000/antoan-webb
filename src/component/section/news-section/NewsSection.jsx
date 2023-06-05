@@ -29,6 +29,7 @@ const NewsSection  = (props) => {
                                     cardStyle={{
                                         textAlign: 'center',
                                         boxShadow: '1px 1px 5px 1px rgba(0, 0, 0, 0.1)',
+                                        height: '100%',
                                     }}
                                     titleStyle={{
                                         fontFamily: 'OSB',
@@ -99,7 +100,10 @@ const NewsSubTitle = styled.span`
 `;
 
 const NewsList = styled.div`
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
     gap: 37px;
     @media (max-width: 892px) {
         display: initial;
@@ -133,25 +137,25 @@ const NewsButton = styled.div`
 
 const newsMock = [
     {
-        banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
+        banner: '/img/bao-ve-muc-tieu-co-dinh.jpg',
         alt: 'Công Việc Bảo Vệ',
         title: 'Công Việc Bảo Vệ',
-        description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '/cong-viec-bao-ve.html',
+        description: 'Công việc bảo vệ gồm những việc như Bảo vệ tài sản, Giám sát an ninh, Kiểm tra an ninh, Phát hiện và giải quyết sự cố,... Với tình hình an ninh, trật tự và an toàn đang được đặt lên hàng đầu, việc bảo vệ được xem là một công việc rất quan trọng trong xã hội hiện nay.',
+        link: '/tin-tuc/cong-viec-bao-ve',
     },
     {
-        banner: './img/gioi-thieu-bao-ve-an-toan-01.jpg',
-        alt: 'Công Việc Bảo Vệ',
-        title: 'Công Việc Bảo Vệ',
-        description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '/cong-viec-bao-ve.html',
+        banner: '/img/gioi-thieu-bao-ve-an-toan-01.jpg',
+        alt: 'Mẫu phương án bảo vệ mục tiêu chuyên nghiệp tại Bảo Vệ An Toàn',
+        title: 'Mẫu phương án bảo vệ mục tiêu chuyên nghiệp tại Bảo Vệ An Toàn',
+        description: 'Mẫu phương án bảo vệ mục tiêu gồm các nội dung hạng mục bảo vệ và nhiệm vụ bảo vệ chi tiết mà công ty bảo vệ cung cấp. Bởi lẽ thông qua mẫu phương án bảo vệ sẽ giúp khách hàng đánh giá được công ty dịch vụ bảo vệ có chuyên nghiệp và uy tín không. Đồng thời đây còn là cơ sở để công ty dịch vụ bảo vệ thực hiện nhiệm vụ của mình. Vậy mẫu phương án bảo vệ mục tiêu có vai trò gì? Xây dựng phương án bảo vệ như thế nào là phù hợp. Cùng Bảo Vệ An Toàn tìm hiểu qua bài viết sau nhé.',
+        link: '/tin-tuc/mau-phuong-an-bao-ve-chuyen-nghiep',
     },
     {
-        banner: './img/gioi-thieu-bao-ve-an-toan-04.jpg',
-        alt: 'Công Việc Bảo Vệ',
-        title: 'Công Việc Bảo Vệ',
-        description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo vệ cố định luôn là nhiệm vụ quan...',
-        link: '/cong-viec-bao-ve.html',
+        banner: '/img/gioi-thieu-bao-ve-an-toan-04.jpg',
+        alt: 'Công ty bảo vệ Quận 4 TPHCM chuyên nghiệp với giá cả phải chăng',
+        title: 'Công ty bảo vệ Quận 4 TPHCM chuyên nghiệp với giá cả phải chăng',
+        description: 'Công ty bảo vệ Quận 4 TPHCM uy tín với giá cả phải chăng là địa chỉ được nhiều doanh nghiệp quan tâm và tìm kiếm. Bởi lẽ khu vực Quận 4 có mật độ dân số khá đông kèm theo đó là vấn đề an ninh khá phức tạp. Do đó, việc lựa chọn được Công ty bảo vệ Quận 4 chuyên nghiệp không chỉ đảm bảo an toàn mà còn góp phần nâng hình ảnh của doanh nghiệp. Cùng Bảo Vệ An Toàn tìm hiểu sự cần thiết cũng như các tiêu chí để lựa chọn được công ty bảo vệ TPHCM uy tín nhé. Đừng quên liên hệ với hotline 0933777005 để sở hữu dịch vụ bảo vệ chuyên nghiệp của Bảo Vệ An Toàn nhé.',
+        link: '/tin-tuc/cong-ty-bao-ve-quan-4',
     }
 ]
 

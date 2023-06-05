@@ -18,7 +18,9 @@ const ChooseSection = (props) => {
                     TẠI SAO CHỌN CÔNG TY BẢO VỆ AN TOÀN
                 </ChooseTitle>
                 <ChooseBody>
-                    <VerticalTimeline>
+                    <VerticalTimeline
+                        animate={false}
+                    >
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
