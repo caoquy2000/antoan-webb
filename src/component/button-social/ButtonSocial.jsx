@@ -14,7 +14,7 @@ const ButtonSocial = (props) => {
                     marginBottom: '20px',
                 }}>
                     <a href="https://zalo.me/0937669977" target="blank">
-                        <img alt="zalo" src="./img/zalo-icon.png" className="icon_zalo"
+                        <img alt="zalo" src="/img/zalo-icon.png" className="icon_zalo"
                            
                         />
                     </a>
@@ -22,7 +22,7 @@ const ButtonSocial = (props) => {
 
                 <div class="hotline">
                     <a href="tel:0937669977">
-                        <img alt="hotline" src="./img/phone-icon.png" className="icon_phone"
+                        <img alt="hotline" src="/img/phone-icon.png" className="icon_phone"
                            
                         />
                     </a>
