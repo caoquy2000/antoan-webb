@@ -4,10 +4,6 @@
   "/_document": "pages/_document.js",
   "/gioi-thieu": "pages/gioi-thieu.js",
   "/trang-chu": "pages/trang-chu.js",
-  "/dich-vu-bao-ve-muc-tieu-co-dinh": "pages/dich-vu-bao-ve-muc-tieu-co-dinh.js",
-  "/dich-vu": "pages/dich-vu.js",
-  "/dich-vu-bao-ve-giu-xe": "pages/dich-vu-bao-ve-giu-xe.js",
-  "/tuyen-dung": "pages/tuyen-dung.js",
-  "/tin-tuc": "pages/tin-tuc.js",
-  "/bao-gia": "pages/bao-gia.js"
+  "/tin-tuc/[idPath]": "pages/tin-tuc/[idPath].js",
+  "/tin-tuc": "pages/tin-tuc.js"
 }

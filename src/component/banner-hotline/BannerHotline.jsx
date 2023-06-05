@@ -7,7 +7,7 @@ const BannerHotline = (props) => {
         <BannerHotlineWrapper>
             <BannerHotlineImg>
                 <div className='img_wrapper'>
-                    <img src="./img/banner-hotline.png" alt="Banner Hotline" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/antoan-data.appspot.com/o/static%2F1685963284232banner-hotline.png?alt=media&token=ed98c90c-9a2b-4d89-b1df-cf9dafc5e180" alt="Banner Hotline" />
                 </div>
                 <div className='text_wrapper'>
                     <span>

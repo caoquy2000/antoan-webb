@@ -31,7 +31,7 @@ const Header = (props) => {
             <HeaderContainer ref={headerRef}>
                 <LogoWrapper>
                     <LogoImg>
-                        <img src="img/logo.png" alt="Logo Bao Ve An Toan" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/antoan-data.appspot.com/o/static%2F1685963420803logo.png?alt=media&token=fa346ea7-71d7-4d02-961c-c88ed1c8912a" alt="Logo Bao Ve An Toan" />
                     </LogoImg>
                     <LogoText>
                         <h1 className="logo"
@@ -47,7 +47,7 @@ const Header = (props) => {
                 </LogoWrapper>
                 <MenuWrapper>
                     <Hotline>
-                        <img src="img/icCall.svg" alt="Icon Call" />
+                        <img src="/img/icCall.svg" alt="Icon Call" />
                         <Middle>HOTLINE:</Middle>
                         <Phone>0937.6699.77</Phone>
                     </Hotline>

@@ -40,7 +40,7 @@ const Footer = (props) => {
                         </p>
                     </FooterContent>
                     <FooterMap>
-                        <img src="img/map.jpg" alt="Google Map" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/antoan-data.appspot.com/o/static%2F1685963363455map.jpg?alt=media&token=a7f670dd-c7af-47c3-9cda-b338e4d4e8dc" alt="Google Map" />
                     </FooterMap>
                     <FooterSocial>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100043559239823&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 

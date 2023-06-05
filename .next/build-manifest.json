@@ -25,26 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bao-gia": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/bao-gia.js"
-    ],
-    "/dich-vu": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dich-vu.js"
-    ],
-    "/dich-vu-bao-ve-giu-xe": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dich-vu-bao-ve-giu-xe.js"
-    ],
-    "/dich-vu-bao-ve-muc-tieu-co-dinh": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dich-vu-bao-ve-muc-tieu-co-dinh.js"
-    ],
     "/gioi-thieu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -59,11 +39,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/trang-chu.js"
-    ],
-    "/tuyen-dung": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tuyen-dung.js"
     ]
   },
   "ampFirstPages": []
