@@ -15,13 +15,13 @@ const SliderComponent = (props) => {
         <React.Fragment>
             <Slider {...settings}>
                 <ImageWrapper>
-                    <img src="./img/slide-1.jpg" alt="Banner" />
+                    <img src="/img/banner-img-1.jpg" alt="Banner" />
                 </ImageWrapper>
                 <ImageWrapper>
-                    <img src="./img/slide-2.jpg" alt="Banner" />
+                    <img src="/img/banner-img-2.jpg" alt="Banner" />
                 </ImageWrapper>
                 <ImageWrapper>
-                    <img src="./img/Banner.jpg" alt="Banner" />
+                    <img src="/img/Banner.jpg" alt="Banner" />
                 </ImageWrapper>
             </Slider>
         </React.Fragment>
