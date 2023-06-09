@@ -3,7 +3,9 @@ import Layout from "component/layout";
 import LoadingPage from "component/loading";
 import Router from "next/router";
 import React from "react";
-import '../global.css'
+import '../global.css';
+import { Analytics } from '@vercel/analytics/react';
+
 const routeChange = () => {
   // Temporary fix to avoid flash of unstyled content
   // during route transitions. Keep an eye on this
@@ -53,6 +55,7 @@ function MyApp({ Component, pageProps }) {
           </Layout>
         )
       }
+      <Analytics />
     </>
   )
 }
