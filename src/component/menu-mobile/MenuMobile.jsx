@@ -31,7 +31,7 @@ const MenuMobile = (props) => {
                         <a href="/tuyen-dung">TUYỂN  DỤNG</a>
                     </li>
                     <li className={router.pathname.includes('/tin-tuc') ? 'active' : ''}>
-                        <a href="/cong-viec-bao-ve">TIN TỨC</a>
+                        <a href="/tin-tuc">TIN TỨC</a>
                     </li>
                 </MenuItem>
             </MenuMobileWrapper>
