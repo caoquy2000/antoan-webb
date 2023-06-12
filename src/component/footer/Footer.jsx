@@ -34,7 +34,7 @@ const Footer = (props) => {
                         <br/>
                         Trụ Sở: 207B Trần Thủ Độ, phường Phú Thạnh, Quận Tân Phú, TP. HCM
                         <br/>
-                        Web: http://baoveantoan.com - Email: leducanhlhvn@gmail.com 
+                        Web: http://baoveantoan.vn - Email: leducanhlhvn@gmail.com 
                         <br/>
                         Hotline: 0937669977
                         </p>

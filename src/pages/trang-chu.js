@@ -83,6 +83,7 @@ const ContentWrapper = styled.div `
     top: 50%;
     left: 50%;
     z-index: 3;
+    display: none;
     transform: translate(-50%, -50%);
     text-align: center;
     .text-wrapper {
