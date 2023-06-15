@@ -3,14 +3,28 @@ import SliderComponent from "component/silder/Slider";
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import * as variable from 'common/variable';
-import IntroSection from "component/section/intro-section/IntroSection";
-import MissionSection from "component/section/mission-section/MissionSection";
-import ServiceSection from "component/section/service-section/ServiceSection";
-import ChooseSection from "component/section/choose-section/ChooseSection";
-import CustomerSection from "component/section/customer-section/CustomerSection";
-import NewsSection from "component/section/news-section/NewsSection";
 import Head from "next/head";
+import { Suspense } from "react";
+import { lazy } from "react";
+import { Skeleton } from "@mui/material";
 
+const LazyIntroComponent = lazy(() => import("component/section/intro-section/IntroSection"));
+const LazyMissionComponent = lazy(() => import("component/section/mission-section/MissionSection"));
+const LazyChooseComponent = lazy(() => import("component/section/choose-section/ChooseSection"));
+const LazyServiceComponent = lazy(() => import("component/section/service-section/ServiceSection"));
+const LazyCustomerComponent = lazy(() => import("component/section/customer-section/CustomerSection"));
+const LazyNewsComponent = lazy(() => import("component/section/news-section/NewsSection"));
+
+const renderLoading = () => {
+    return (
+        <Skeleton 
+            x={{ bgcolor: 'grey.900' }}
+            variant="rectangular"
+            width="100%"
+            height="100%"
+        />
+    )
+}
 
 const Home = (props) => {
     return (
@@ -38,12 +52,24 @@ const Home = (props) => {
                     </div>
                 </ContentWrapper>
             </SliderSection>
-            <IntroSection />
-            <MissionSection />
-            <ChooseSection />
-            <ServiceSection />
-            <CustomerSection />
-            <NewsSection />
+            <Suspense fallback={renderLoading()}>
+                <LazyIntroComponent />
+            </Suspense>
+            <Suspense fallback={renderLoading()}>
+                <LazyMissionComponent />
+            </Suspense>
+            <Suspense fallback={renderLoading()}>
+                <LazyChooseComponent />
+            </Suspense>
+            <Suspense fallback={renderLoading()}>
+                <LazyServiceComponent />
+            </Suspense>
+            <Suspense fallback={renderLoading()}>
+                <LazyCustomerComponent />
+            </Suspense>
+            <Suspense fallback={renderLoading()}>
+                <LazyNewsComponent />
+            </Suspense>
         </>
     );
 };
