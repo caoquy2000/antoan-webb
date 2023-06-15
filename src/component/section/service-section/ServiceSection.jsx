@@ -98,8 +98,8 @@ const ServiceItem = styled.div`
 const serviceMock = [
     {
         banner: './img/bao-ve-muc-tieu-co-dinh.jpg',
-        alt: 'Bảo Vệ Mục Tiêu Cố Định',
-        title: 'Bảo Vệ Mục Tiêu Cố Định',
+        alt: 'Bảo Vệ Chung Cư - Tòa Nhà',
+        title: 'Bảo Vệ Chung Cư - Tòa Nhà',
         route: '/dich-vu-bao-ve-muc-tieu-co-dinh',
         description: 'Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo...',
     },
@@ -112,8 +112,8 @@ const serviceMock = [
     },
     {
         banner: './img/bao-ve-chat-luong-cao.png',
-        alt: 'Bảo vệ chất lượng cao',
-        title: 'Bảo vệ chất lượng cao',
+        alt: 'Bảo Vệ Nhà Máy, Xý Nghiệp, Công Ty',
+        title: 'Bảo Vệ Nhà Máy, Xý Nghiệp, Công Ty',
         route: '/dich-vu-bao-ve-chat-luong-cao',
         description: 'Công ty Bảo Vệ An Toàn tự hào cung cấp dịch vụ bảo vệ chất lượng cao đến quý doanh nghiệp khách hàng...',
     },

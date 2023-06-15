@@ -32,7 +32,45 @@ const Footer = (props) => {
                         <br/>
                         * Mst 0312237477, Ngày cấp: 14/04/2013, Nơi cấp: Sở KH&ĐT Tp. HCM
                         <br/>
-                        Trụ Sở: 207B Trần Thủ Độ, phường Phú Thạnh, Quận Tân Phú, TP. HCM
+                        Trụ Sở: <b style={{
+                            color: '#fff'
+                        }}>207B TRẦN THỦ ĐỘ, PHƯỜNG PHÚ THẠNH, QUẬN TÂN PHÚ, TP. HỒ CHÍ MINH </b>
+                        <br/>
+                        Web: http://baoveantoan.vn - Email: leducanhlhvn@gmail.com 
+                        <br/>
+                        Hotline: 0937669977
+                        </p>
+                        <p style={{
+                            paddingTop: 12
+                        }}>
+                        Chi nhánh 1:<b style={{
+                            color: '#fff'
+                        }}> 275/50 ĐƯỜNG NGUYỄN VĂN LỘNG, KHU PHỐ CHÁNH LỘC 1, PHƯỜNG CHÁNH MỸ, THÀNH PHỐ THỦ DẦU MỘT, BÌNH DƯƠNG 
+                        </b>
+                        <br/>
+                        Web: http://baoveantoan.vn - Email: leducanhlhvn@gmail.com 
+                        <br/>
+                        Hotline: 0937669977
+                        </p>
+                        <p style={{
+                            paddingTop: 12
+                        }}>
+                        Chi nhánh 2:<b style={{
+                            color: '#fff'
+                        }}> 34A ĐƯỜNG ĐẶNG ĐẠI ĐỘ, XÃ HIỆP HÒA, TP. BIÊN HÒA, ĐỒNG NAI 
+                        </b>
+                        <br/>
+                        Web: http://baoveantoan.vn - Email: leducanhlhvn@gmail.com 
+                        <br/>
+                        Hotline: 0937669977
+                        </p>
+                        <p style={{
+                            paddingTop: 12,
+                            paddingBottom: 12,
+                        }}>
+                        Chi nhánh 3:<b style={{
+                            color: '#fff'
+                        }}> 204/10 QUỐC LỘ 62, PHƯỜNG 2, TP. TÂN AN, LONG AN </b>
                         <br/>
                         Web: http://baoveantoan.vn - Email: leducanhlhvn@gmail.com 
                         <br/>

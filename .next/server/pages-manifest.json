@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/dich-vu": "pages/dich-vu.js",
+  "/dich-vu-bao-ve-giu-xe": "pages/dich-vu-bao-ve-giu-xe.js",
+  "/trang-chu": "pages/trang-chu.js",
   "/": "pages/index.js"
 }

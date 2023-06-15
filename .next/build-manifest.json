@@ -29,6 +29,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/dich-vu": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dich-vu.js"
+    ],
+    "/dich-vu-bao-ve-giu-xe": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dich-vu-bao-ve-giu-xe.js"
+    ],
+    "/trang-chu": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/trang-chu.js"
     ]
   },
   "ampFirstPages": []
