@@ -8,7 +8,7 @@ import BannerSendPhone from "component/banner-send-phone/BannerSendPhone";
 import Head from "next/head";
 import { useEffect } from "react";
 import { getNewsList } from "utils/WebUtil";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, orderBy } from "firebase/firestore";
 import { db } from "../../firebase";
 
 async function getNews() {
@@ -174,12 +174,17 @@ const News = (props) => {
     );
 };
 
+const compareByPos = (a, b) => {
+    return b?.pos - a?.pos;
+}
+
 export async function getServerSideProps(context) {
-    const newsCollec = await getDocs(collection(db, 'news'));
+    const newsCollec = await getDocs(collection(db, 'news'), orderBy('pos', 'desc'));
     const newsData = newsCollec.docs.map((doc) => doc.data());
+    const newsDataSorted = newsData.sort(compareByPos);
     return {
         props: {
-            newsColl: newsData
+            newsColl: newsDataSorted
         },
     };
 }
