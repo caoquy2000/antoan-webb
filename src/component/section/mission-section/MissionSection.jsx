@@ -13,7 +13,7 @@ const MissionSection = (props) => {
         autoplay: true,
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -75,7 +75,13 @@ const MissionSection = (props) => {
                                 <img src="./img/mission.jpg" alt="Mission" />
                             </ImageWrapper>
                             <ImageWrapper>
-                                <img src="./img/mission.jpg" alt="Mission" />
+                                <img src="./img/mission-01.jpg" alt="Mission" />
+                            </ImageWrapper>
+                            <ImageWrapper>
+                                <img src="./img/mission-02.jpg" alt="Mission" />
+                            </ImageWrapper>
+                            <ImageWrapper>
+                                <img src="./img/mission-03.jpg" alt="Mission" />
                             </ImageWrapper>
                         </Slider>
                     </MissionSlider>
@@ -197,11 +203,19 @@ const MissionContentWrapper = styled.div`
 const MissionSlider = styled.div`
     position: absolute;
     width: 50%;
+    height: 100%;
     top: 0;
     right: 0;
     @media (max-width: 1100px) {
         position: initial;
         width: 100%;
+    }
+
+    .slick-slider {
+        height: 100% !important;
+    }
+    .slick-list {
+        height: 100% !important;
     }
 `;
 
