@@ -71,9 +71,7 @@ const MissionSection = (props) => {
                     </MissionContent>
                     <MissionSlider>
                         <Slider ref={sliderRef} {...settings} >
-                            <ImageWrapper>
-                                <img src="./img/mission.jpg" alt="Mission" />
-                            </ImageWrapper>
+                      
                             <ImageWrapper>
                                 <img src="./img/mission-01.jpg" alt="Mission" />
                             </ImageWrapper>
